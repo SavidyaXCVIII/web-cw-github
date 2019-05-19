@@ -10,21 +10,20 @@ body {
 /*Text*/
 h1 {
     margin: 0 0 0.5em 0;
-    font-size: 4.8em;
+    font-size: 4vw;
     font-weight: 700;
     color: #fff;
 }
 h2 {
     margin: 0 0 1em 0;
-    font-size: 1.6em;
+    font-size: 2vw;
     font-weight: 700;
     line-height: 1.1em;
 }
 h3 {
     margin: 0 0 1em 0;
-    font-size: 2em;
+    font-size: 1.5vw;
     font-weight: 700;
-    padding-left: 150px;
     color: #fff;
 }
 
@@ -41,6 +40,24 @@ a {
 }
 a:visited {
     color: #65b1ff;
+}
+a.btn {
+    background-color: #4c5c68;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 1vw 1.8vw;
+    transition: 0.3s;
+    position: absolute;
+    left: 70%;
+
+
+}
+a.btn:hover {
+    background-color: #1985a1;
+    color: #000;
 }
 
 /*Header*/
@@ -71,7 +88,7 @@ header a.logo span {
     display: none;
 }
 header div.cover {
-    position: absolute;
+    position: relative;
     width: 42%;
     top: 40%;
     left: 40%;
