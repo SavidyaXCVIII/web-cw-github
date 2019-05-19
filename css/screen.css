@@ -34,7 +34,7 @@ p {
     margin: 0 0 1em 0 ;
 }
 a {
-    color: #007efff;
+    color: #007eff;
 }
 a:visited {
     color: #65b1ff;
@@ -43,7 +43,7 @@ a:visited {
 /*Header*/
 header {
     height: 100vh;
-    background-image: url(../images/book-pages-chapter-dark.jpg);
+    background-image: url(../images/s-o-c-i-a-l-c-u-t-1146935-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,9 +54,19 @@ header a.logo {
     display: block;
     width: 160px;
     height: 160px;
-    background: url("../images/logo.png") no-repeat 0 0; background-size: contain;
+    background: url("../images/logo.png") no-repeat 0 0;
+    background-size: contain;
     top: 15px;
     left: 20px;
-
-
+}
+header a.logo span {
+    display: none;
+}
+header div.cover {
+    background: black;
+    opacity: ;
+    position: absolute;
+    width: 42%;
+    top: 45%;
+    left: 55%;
 }
