@@ -65,6 +65,7 @@ header {
     height: 100vh;
     background: url("../images/nicole-honeywill-1221926-unsplash.jpg") center no-repeat;
     background-size: cover;
+
 }
 header div.overlay {
     background-color: rgba(0, 0, 0, 0.4);
@@ -81,8 +82,8 @@ header a.logo {
     height: 160px;
     background: url("../images/logo.png") no-repeat 0 0;
     background-size: contain;
-    top: 15px;
-    left: 20px;
+    top: 5px;
+    left: 13vw;
 }
 header a.logo span {
     display: none;
@@ -93,4 +94,52 @@ header div.cover {
     top: 40%;
     left: 40%;
     text-align: right;
+}
+/*navigation*/
+
+nav {
+    position: absolute;
+    float: right;
+    top: 4vh;
+    right: 17vw;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    background: #1985a1;
+    color: #fff;
+    border-radius: 4px;
+}
+nav ul li ul {
+    display: block;
+    min-width: 250px;
+    position: absolute;
+    margin-top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    visibility: hidden;
+    opacity: 0;
+    transition:  .5s;
+    transform: translateY(40px);
+}
+nav ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+nav ul li ul li a {
+    padding: 10px;
 }
