@@ -3,16 +3,16 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #555;
     margin: 0;
     padding: 0;
 }
 
 /*Text*/
 h1 {
-    margin: 0 0 1em 0;
-    font-size: 2.8em;
+    margin: 0 0 0.5em 0;
+    font-size: 4.8em;
     font-weight: 700;
+    color: #fff;
 }
 h2 {
     margin: 0 0 1em 0;
@@ -20,11 +20,14 @@ h2 {
     font-weight: 700;
     line-height: 1.1em;
 }
-h2 {
+h3 {
     margin: 0 0 1em 0;
-    font-size: 1.6em;
+    font-size: 2em;
     font-weight: 700;
+    padding-left: 150px;
+    color: #fff;
 }
+
 h4 {
     margin: 0 0 1em 0;
     font-size: 1em;
@@ -43,11 +46,16 @@ a:visited {
 /*Header*/
 header {
     height: 100vh;
-    background-image: url(../images/s-o-c-i-a-l-c-u-t-1146935-unsplash.jpg);
-    background-position: center;
+    background: url("../images/nicole-honeywill-1221926-unsplash.jpg") center no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
-
+}
+header div.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 header a.logo {
     position: absolute;
@@ -63,10 +71,9 @@ header a.logo span {
     display: none;
 }
 header div.cover {
-    background: black;
-    opacity: ;
     position: absolute;
     width: 42%;
-    top: 45%;
-    left: 55%;
+    top: 40%;
+    left: 40%;
+    text-align: right;
 }
