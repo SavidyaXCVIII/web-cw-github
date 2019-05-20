@@ -179,6 +179,8 @@ div .container {
     z-index: 2;
 
 }
+/*images*/
+
 .container .box {
     width: 600px;
     margin: -30px auto 0 auto;
@@ -194,3 +196,55 @@ div .container {
     height: 100%;
     padding: 0;
 }
+/*Hover Details*/
+.container-1 .box {
+    width: 800px;
+    margin: 0 auto;
+    display: table;
+
+}
+.container-1 .box .box-row{
+    display: table-row;
+
+}
+.container-1 .box .box-row .box-cell {
+    display: table-cell;
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.image-hover1 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.hover-wrapper-1:hover .image-hover1 {
+    opacity: 0.8;
+}
+.image-hover2 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.hover-wrapper-2:hover .image-hover2 {
+    opacity: 0.8;
+}
+.image-hover3 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.hover-wrapper-3:hover .image-hover3 {
+    opacity: 0.8;
+}
+.image-hover4 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.hover-wrapper-4:hover .image-hover4 {
+    opacity: 0.8;
+}
+
