@@ -36,7 +36,7 @@ p {
     margin: 0 0 1em 0 ;
 }
 a {
-    color: #007eff;
+    color: #fff;
 }
 a:visited {
     color: #65b1ff;
@@ -74,16 +74,23 @@ header div.overlay {
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 header a.logo {
     position: absolute;
     display: block;
-    width: 160px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
     background: url("../images/logo.png") no-repeat 0 0;
     background-size: contain;
-    top: 5px;
+    top: 15px;
     left: 13vw;
+}
+header a.nav-space {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 40px;
 }
 header a.logo span {
     display: none;
@@ -95,38 +102,57 @@ header div.cover {
     left: 40%;
     text-align: right;
 }
+/*header div.top-nav {*/
+/*    height: 100px;*/
+/*}*/
 /*navigation*/
 
 nav {
-    position: absolute;
+    position: sticky;
     float: right;
-    top: 4vh;
+    top: 0;
     right: 17vw;
+    border-radius: 4px;
+    background: #4c5c68;
+    z-index: 3;
+
 }
 nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+
 }
 nav ul li {
     list-style: none;
 }
 nav ul li a {
     display: block;
-    color: #fff;
     text-transform: uppercase;
-    padding: 20px 20px;
+    padding: 15px 15px;
     text-decoration: none;
+    font-size: 0.8em;
     font-weight: bold;
+    color: #ffffff;
 }
-nav ul li a:hover {
-    background: #1985a1;
+nav ul li a.active {
+    background-color: #1985a1;
     color: #fff;
     border-radius: 4px;
 }
+
+nav ul li a:hover {
+    background: #46484c;
+    color: #fff;
+    border-radius: 4px;
+}
+nav ul li a:hover:not (.active){
+    background: #4c5c68;
+    color: #fff;
+}
 nav ul li ul {
     display: block;
-    min-width: 250px;
+    min-width: 50px;
     position: absolute;
     margin-top: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
@@ -134,6 +160,7 @@ nav ul li ul {
     opacity: 0;
     transition:  .5s;
     transform: translateY(40px);
+    background: #4c5c68;
 }
 nav ul li:hover ul {
     opacity: 1;
@@ -142,4 +169,28 @@ nav ul li:hover ul {
 }
 nav ul li ul li a {
     padding: 10px;
+}
+/*section-all*/
+section {
+    padding: 0 30px;
+}
+div .container {
+    position: relative;
+    z-index: 2;
+
+}
+.container .box {
+    width: 600px;
+    margin: -30px auto 0 auto;
+    display: table;
+
+}
+.container .box .box-row{
+    display: table-row;
+}
+.container .box .box-row .box-cell {
+    display: table-cell;
+    width: 50%;
+    height: 100%;
+    padding: 0;
 }
