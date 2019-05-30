@@ -190,6 +190,7 @@ div .container {
 }
 .container .box .box-row{
     display: table-row;
+
 }
 .container .box .box-row .box-cell {
     display: table-cell;
@@ -197,6 +198,7 @@ div .container {
     height: 100%;
     padding: 0;
 }
+
 /*Hover Details*/
 .container-1 .box {
     width: 800px;
