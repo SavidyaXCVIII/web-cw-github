@@ -4,6 +4,10 @@ body {
     padding: 0;
     background-color: #c5c3c6;
 }
+nav {
+    font-family: 'montserrat_lightregular', sans-serif;
+
+}
 button {
     background-color: #279;
     color: #fff;
@@ -27,12 +31,22 @@ button:hover {
 }
 p {
     margin: 0;
-    font-size: 1.5vw;
+    font-size: 1.1vw;
+    font-family: 'montserratregular', sans-serif;
+    font-weight: normal;
 }
 
 #quiz, #results {
     background: #dcdcdd;
     padding: 10px;
     border-radius: 3px;
+}
+h2 {
+    font-family: 'montserrat_blackregular', sans-serif;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'montserrat_semiboldregular', sans-serif;
+    font-weight: normal;
 }
 
