@@ -24,6 +24,12 @@
     font-weight: 700;
     color: #fff;
 }
+.team-h3 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'montserrat_mediumregular', sans-serif;
+    font-size: xx-large;
+}
 
 p {
     margin: 0 0 1em 0 ;
@@ -188,6 +194,7 @@ div .container {
     text-align: center;
     font-size: 25px;
     font-weight: 700;
+    background-color: #fffafb;
 
 }
 div .main-container {
@@ -212,17 +219,23 @@ div .main-container {
     -webkit-transform:skew(20deg);
     -moz-transform:skew(20deg);
     -o-transform:skew(20deg);
-    object-fit: contain;
+    padding-top: 10px;
+}
+.book-img {
+    height: 280px;
+    width: 187px;
 }
 
 div .book_1_info,.book_3_info{
     width: 700px;
-    height: 0px;
+    float: left;
+    padding: 30px;
 }
 div .book_2_info,.book_4_info{
-    width: 1400px;
-    height: 0px;
+    width: 700px;
     text-align: right;
+    float: right;
+    padding: 30px;
 }
 
 .sub-container-01 {
@@ -260,6 +273,7 @@ div .book_2_info,.book_4_info{
     background: #22253c;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .sub-container-03 {
     background: #2b2c28;
@@ -278,6 +292,7 @@ div .book_2_info,.book_4_info{
     background: #22253c;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .sub-container-04 {
     background: #23a89b;
@@ -294,6 +309,7 @@ div .book_2_info,.book_4_info{
     background: #22253c;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
@@ -344,6 +360,7 @@ div .book_2_info,.book_4_info{
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 4px;
 }
 .hover-wrapper-1:hover .image-hover1 {
     opacity: 0.8;
@@ -352,22 +369,26 @@ div .book_2_info,.book_4_info{
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 4px;
 }
 .hover-wrapper-2:hover .image-hover2 {
     opacity: 0.8;
 }
 .image-hover3 {
+    border-radius: 4px;
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
 }
 .hover-wrapper-3:hover .image-hover3 {
     opacity: 0.8;
+
 }
 .image-hover4 {
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 4px;
 }
 .hover-wrapper-4:hover .image-hover4 {
     opacity: 0.8;
