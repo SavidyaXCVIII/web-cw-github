@@ -35,7 +35,7 @@ a:visited {
     color: #fff;
 }
 a.btn {
-    background-color: #4c5c68;
+    background-color: #22253c;
     font-size: 1vw;
     text-decoration: none;
     color: #fff;
@@ -50,6 +50,7 @@ a.btn {
 }
 a.btn:hover {
     color: #000;
+    background-color: #23a89b;
 }
 
 /*Header*/
@@ -183,6 +184,12 @@ div .container {
 }
 
 /*books-container*/
+.container_heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+
+}
 div .main-container {
     height: 1400px;
     background: #ffffff;
@@ -198,16 +205,34 @@ div .main-container {
     padding-top: 0;
 }
 
+.book_1 ,.book_3,.book_2,.book_4{
+    width: 400px;
+    height: 50px;
+    margin-left: 55px;
+    -webkit-transform:skew(20deg);
+    -moz-transform:skew(20deg);
+    -o-transform:skew(20deg);
+    object-fit: contain;
+}
+
+div .book_1_info,.book_3_info{
+    width: 700px;
+    height: 0px;
+}
+div .book_2_info,.book_4_info{
+    width: 1400px;
+    height: 0px;
+    text-align: right;
+}
 
 .sub-container-01 {
     background: #2b2c28;
     height: 300px;
     margin-left: -30px;
 
-
 }
 .inner-container-01 {
-    width: 350px;
+    width: 500px;
     height: 300px;
     margin: 0 -55px 0 0;
     float: right;
@@ -226,7 +251,7 @@ div .main-container {
 
 }
 .inner-container-02 {
-    width: 350px;
+    width: 500px;
     height: 300px;
     margin: 0 0 0 -85px;
     -webkit-transform: skew(-20deg);
@@ -243,7 +268,7 @@ div .main-container {
 
 }
 .inner-container-03 {
-    width: 350px;
+    width: 500px;
     height: 300px;
     margin: 0 -55px 0 0;
     float: right;
@@ -260,7 +285,7 @@ div .main-container {
 
 }
 .inner-container-04 {
-    width: 350px;
+    width: 500px;
     height: 300px;
     margin: 0 0 0 -85px;
     -webkit-transform: skew(-20deg);
@@ -300,6 +325,7 @@ div .main-container {
     display: table;
     height: 60px;
     padding: 10px;
+    color: white;
 
 }
 .container-1 .box .box-row{
