@@ -12,14 +12,17 @@ button {
     background-color: #279;
     color: #fff;
     border: 0;
-    border-radius: 3px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 15px;
     cursor: pointer;
     margin: 20px;
     font-size: 1.2vw;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 button:hover {
-    background-color: #38a;
+    background-color: #46494c;
+    color: #65b1ff;
+
 }
 .quiz-container {
     height: 500px;
@@ -42,11 +45,16 @@ p {
     border-radius: 3px;
 }
 h2 {
-    font-family: 'montserrat_blackregular', sans-serif;
-    font-weight: normal;
+    font-family: 'montserrat_semiboldregular', sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
 }
 h3 {
     font-family: 'montserrat_semiboldregular', sans-serif;
+    font-weight: normal;
+}
+h4 {
+    font-family: 'montserratregular', sans-serif;
     font-weight: normal;
 }
 

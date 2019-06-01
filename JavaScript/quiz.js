@@ -25,7 +25,7 @@ function generateQuestion() {
     results = get("results");
 
     if (pos >= Questions.length) {
-        results.innerHTML = " <h2> You got " + correct + " of " + Questions.length + " questions correct </h2>";
+        results.innerHTML = " <h4> You got " + correct + " of " + Questions.length + " questions correct </h4>";
         get("quiz").innerHTML = "Test Completed";
 
         pos = 0;
