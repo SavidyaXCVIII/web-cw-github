@@ -9,14 +9,16 @@
 }
 
 /*Text*/
-h1 .index-h1 {
+.index-h1 {
+    font-family: 'montserratbold', sans-serif;
     margin: 0 0 0.5em 0;
     font-size: 4vw;
     font-weight: 700;
     color: #fff;
 }
 
-h3 .index-h3 {
+.index-h3 {
+    font-family: 'montserrat_lightregular', sans-serif;
     margin: 0 0 1em 0;
     font-size: 1.5vw;
     font-weight: 700;
@@ -61,12 +63,12 @@ header .global-overlay {
 .header-index {
     position: relative;
     height: 100vh;
-    background: url("../images/nicole-honeywill-1221926-unsplash.jpg") center no-repeat;
+    background: url("../images/library_books_reading.jpg") center no-repeat;
     background-size: cover;
 
 }
 header div.overlay {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.51);
     position: absolute;
     top: 0;
     left: 0;
@@ -348,7 +350,7 @@ div .main-container {
 /*footer*/
 
 footer {
-    background-color: #292c2f;
+    background-color: #131515;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
