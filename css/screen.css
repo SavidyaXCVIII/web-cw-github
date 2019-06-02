@@ -42,6 +42,8 @@ a {
 a:visited {
     color: #fff;
 }
+/*button*/
+/*buy-books-now-btn*/
 a.btn {
     background-color: #22253c;
     font-size: 1vw;
@@ -61,6 +63,35 @@ a.btn:hover {
     background-color: #23a89b;
 }
 
+/*scroll-down-btn*/
+
+.arrow {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: rotate(90deg);
+    height: 50px;
+    width: 50px;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
 /*Header*/
 header .global-overlay {
     background: #46494c;
@@ -76,7 +107,7 @@ header .global-overlay {
     background-size: cover;
 
 }
-header div.overlay {
+.overlay {
     background-color: rgba(0, 0, 0, 0.51);
     position: absolute;
     top: 0;
@@ -111,9 +142,7 @@ header div.cover {
     left: 40%;
     text-align: right;
 }
-/*header div.top-nav {*/
-/*    height: 100px;*/
-/*}*/
+
 /*navigation*/
 
 nav {
