@@ -1,4 +1,7 @@
 /*Document for Screens*/
+html {
+    scroll-behavior: smooth;
+}
 .index-body {
     font-family: 'montserratregular', sans-serif;
     font-size: 16px;
@@ -239,6 +242,7 @@ div .container {
     font-size: 25px;
     font-weight: 700;
     background-color: #fffafb;
+    margin-right: 400px;
 
 }
 div .main-container {
