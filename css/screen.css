@@ -1,12 +1,13 @@
 /*Document for Screens*/
 .index-body {
-    font-family: 'montserrat_lightregular', sans-serif;
+    font-family: 'montserratregular', sans-serif;
     font-size: 16px;
     font-weight: normal;
     margin: 0;
     padding: 0;
     background: #fff;
 }
+
 
 /*Text*/
 .index-h1 {
@@ -33,6 +34,7 @@
 
 p {
     margin: 0 0 1em 0 ;
+
 }
 a {
     color: #fff;
@@ -122,6 +124,7 @@ nav {
     border-radius: 4px;
     z-index: 5;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-family: 'ubuntubold', sans-serif;
 }
 nav ul {
     margin: 0;
@@ -190,6 +193,18 @@ div .container {
 }
 
 /*books-container*/
+/*    content*/
+.left-column {
+    width: 150px;
+    text-align: right;
+    top: 0;
+    vertical-align: text-top;
+    padding: 5px;
+}
+.right-column {
+    padding: 5px;
+}
+/*other*/
 .container_heading{
     text-align: center;
     font-size: 25px;
@@ -205,6 +220,7 @@ div .main-container {
     position: relative;
     -webkit-background-size: cover;
     background-size: cover;
+
 }
 .co-main-container {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -232,10 +248,13 @@ div .book_1_info,.book_3_info{
     width: 500px;
     float: left;
     padding: 30px;
+    display: inline-block;
+    color: #ffffff;
 }
+
 div .book_2_info,.book_4_info{
     width: 500px;
-    text-align: right;
+    text-align: left;
     float: right;
     padding: 30px;
 }
