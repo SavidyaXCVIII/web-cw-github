@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10cf920-f9a3-4b96-b40c-ab9472655a17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +23,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2104">
+                <state relative-caret-position="1944">
                   <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
                   <folding>
                     <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -96,8 +96,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/screen.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="242" column="18" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
+                <state relative-caret-position="144">
+                  <caret line="90" column="35" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -121,6 +121,7 @@
       <find>pro</find>
       <find>overl</find>
       <find>cover</find>
+      <find>logo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,7 +240,7 @@
       <workItem from="1559142206497" duration="13000" />
       <workItem from="1559211328564" duration="1931000" />
       <workItem from="1559307457194" duration="15417000" />
-      <workItem from="1559375936111" duration="20940000" />
+      <workItem from="1559375936111" duration="21587000" />
     </task>
     <task id="LOCAL-00001" summary="update 0.1">
       <created>1558264858359</created>
@@ -259,7 +260,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98428000" />
+    <option name="totallyTimeSpent" value="99075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,7 +374,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2104">
+        <state relative-caret-position="1944">
           <caret line="96" column="41" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -383,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="242" column="18" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="90" column="35" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="35" />
         </state>
       </provider>
     </entry>
