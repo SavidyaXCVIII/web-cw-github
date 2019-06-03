@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e10cf920-f9a3-4b96-b40c-ab9472655a17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e10cf920-f9a3-4b96-b40c-ab9472655a17" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="245" column="4" lean-forward="true" selection-start-line="245" selection-start-column="6" selection-end-line="245" selection-end-column="30" />
+            <state relative-caret-position="-4746">
+              <caret line="259" column="27" selection-start-line="259" selection-start-column="27" selection-end-line="259" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -116,6 +113,7 @@
       <find>main</find>
       <find>scroll</find>
       <find>container_</find>
+      <find>container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,10 +133,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -235,7 +233,7 @@
       <workItem from="1559142206497" duration="13000" />
       <workItem from="1559211328564" duration="1931000" />
       <workItem from="1559307457194" duration="15417000" />
-      <workItem from="1559375936111" duration="36134000" />
+      <workItem from="1559375936111" duration="36796000" />
     </task>
     <task id="LOCAL-00001" summary="update 0.1">
       <created>1558264858359</created>
@@ -255,7 +253,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113622000" />
+    <option name="totallyTimeSpent" value="114284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,8 +265,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4364599" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.120272316" />
@@ -376,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="245" column="4" lean-forward="true" selection-start-line="245" selection-start-column="6" selection-end-line="245" selection-end-column="30" />
+        <state relative-caret-position="-4746">
+          <caret line="259" column="27" selection-start-line="259" selection-start-column="27" selection-end-line="259" selection-end-column="27" />
         </state>
       </provider>
     </entry>
