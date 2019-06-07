@@ -112,7 +112,8 @@ function timer001() {
     }
 }
 function hideTimer(){
-    document.getElementsByClassName("timer").style.cssText = "display: none;";
+    let stop = get("hideTimer");
+    stop.style.cssText = "display: none;";
 }
 update = setInterval("timer001()", 1000);
 

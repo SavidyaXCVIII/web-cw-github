@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10cf920-f9a3-4b96-b40c-ab9472655a17" name="Default Changelist" comment="update 1.4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="66" column="6" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+            <state relative-caret-position="246">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="342">
+              <caret line="115" column="42" lean-forward="true" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
               <folding>
                 <element signature="e#37#43#1" expanded="true" />
                 <element signature="e#38#44#1" expanded="true" />
@@ -116,8 +116,8 @@
         <option value="$USER_HOME$/Desktop/ms.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/screen.css" />
-        <option value="$PROJECT_DIR$/quiz.html" />
         <option value="$PROJECT_DIR$/css/quiz-styles.css" />
+        <option value="$PROJECT_DIR$/quiz.html" />
         <option value="$PROJECT_DIR$/JavaScript/quiz.js" />
       </list>
     </option>
@@ -219,7 +219,7 @@
       <workItem from="1559575979771" duration="388000" />
       <workItem from="1559576382513" duration="1077000" />
       <workItem from="1559723328659" duration="643000" />
-      <workItem from="1559889107149" duration="19353000" />
+      <workItem from="1559889107149" duration="19589000" />
     </task>
     <task id="LOCAL-00001" summary="update 0.1">
       <created>1558264858359</created>
@@ -239,7 +239,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135745000" />
+    <option name="totallyTimeSpent" value="135981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,13 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="66" column="6" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4974">
@@ -389,10 +382,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quiz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="115" column="42" lean-forward="true" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
           <folding>
             <element signature="e#37#43#1" expanded="true" />
             <element signature="e#38#44#1" expanded="true" />
