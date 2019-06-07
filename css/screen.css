@@ -60,6 +60,7 @@ a.btn {
     left: 70%;
 
 
+
 }
 a.btn:hover {
     color: #000;
@@ -258,6 +259,7 @@ div .main-container {
 .co-main-container {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     padding: 30px 0 0 30px;
+
 }
 .co-one {
     padding-top: 0;
@@ -296,6 +298,7 @@ div .book_2_info,.book_4_info{
     background: #2b2c28;
     height: 300px;
     margin-left: -30px;
+
 
 }
 .inner-container-01 {
@@ -375,10 +378,10 @@ div .book_2_info,.book_4_info{
     width: 600px;
     margin: -30px auto 0 auto;
     display: table;
-
 }
 .container .box .box-row{
     display: table-row;
+
 
 }
 .container .box .box-row .box-cell {
