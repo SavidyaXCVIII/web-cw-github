@@ -40,7 +40,6 @@ function generateQuestion() {
     if (pos >= Questions.length){
         results.innerHTML = " <h4> You got " + correct + " of " + Questions.length + " questions correct </h4>";
         results.innerHTML += "<h2> Your Score is : " + marks + "</h2>";
-        hideTimer();
         results.innerHTML += "<h4> You took " + duration + " seconds to complete the quiz.</h4>";
         results.innerHTML += "<h4>Correct answers are : </h4> <br> <div class=answers''>";
         for (var i in correctQuestionsArray){
@@ -48,7 +47,7 @@ function generateQuestion() {
         }
         results.innerHTML += "</div>";
         get("quiz").innerHTML = "Test Completed";
-
+        hideTimer();
         pos = 0;
         correct = 0;
         return false;

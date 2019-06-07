@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10cf920-f9a3-4b96-b40c-ab9472655a17" name="Default Changelist" comment="update 1.4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/quiz.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="384">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding>
                 <element signature="e#37#43#1" expanded="true" />
                 <element signature="e#38#44#1" expanded="true" />
@@ -218,7 +219,7 @@
       <workItem from="1559575979771" duration="388000" />
       <workItem from="1559576382513" duration="1077000" />
       <workItem from="1559723328659" duration="643000" />
-      <workItem from="1559889107149" duration="19288000" />
+      <workItem from="1559889107149" duration="19353000" />
     </task>
     <task id="LOCAL-00001" summary="update 0.1">
       <created>1558264858359</created>
@@ -238,7 +239,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135680000" />
+    <option name="totallyTimeSpent" value="135745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="384">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
           <folding>
             <element signature="e#37#43#1" expanded="true" />
             <element signature="e#38#44#1" expanded="true" />
