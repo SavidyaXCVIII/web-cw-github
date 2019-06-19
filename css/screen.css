@@ -146,6 +146,35 @@ header div.cover {
     left: 40%;
     text-align: right;
 }
+/*Font change button*/
+
+#font-btn {
+    position: fixed;
+    top: 20px;
+}
+#font-btn button {
+    border-radius: 50px;
+    cursor: pointer;
+    position: sticky;
+    float: left;
+    margin: 20px 5px 10px 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-size: 60px;
+}
+#font-btn button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+#input-1 {
+     background: url("../images/Zoom-In-icon.png")  no-repeat;
+     #background-size: contain;
+}
+#input-2 {
+     background: url("../images/Zoom-Out-icon.png");
+     background-size: contain;
+}
 
 /*navigation*/
 
