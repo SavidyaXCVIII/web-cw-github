@@ -1,242 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livre Le Magasin</title>
-<!--    page-styles-css-->
-    <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen">
-<!--    web-font-kits-css-->
-    <link rel="stylesheet" href="fonts/web-font-kit-2/stylesheet.css" type="text/css">
-    <link rel="stylesheet" href="fonts/WebFontKit/stylesheet.css" type="text/css">
-<!--    javaScript-->
-    <script src="JavaScript/main-page.js"></script>
-    <script src="JavaScript/font-change.js"></script>
+    <meta charset="UTF-8">
+    <title>Presentation</title>
+    <! css linking >
+    <link rel="stylesheet" href="css/presentation.css" type="text/css">
 </head>
-<body class="index-body">
-<div id="page">
-    <header class="header-index">
+<body>
+<script>
+    setTimeout(function(){
+        window.location.href = "home-page.html";
+    }, 4000);
+</script>
 
-        <div class="overlay">
-            <a class="logo" title="livre" href="#index"><span>Livre Le Magasin</span></a>
-            <a class="nav-space" href=""></a>
-
-
-
-            <div class="cover" >
-                <h1 class="index-h1">Livre Le Magasin</h1>
-                <h3 class="index-h3 saying">A mind needs books as a <br> sword needs a whetstone,<br> if it is to keep its edge.</h3>
-                <a class="btn" title="buy" href="#">Buy Books Now </a>
-
-            </div>
-            <a href="#scroll-start"><img  class="arrow bounce" src="images/arrow.png" alt=""></a>
-        </div>
-    </header>
-    <p id="scroll-start"> </p>
-<!--books-container-->
-<br><p class="container_heading" >Featured books<br>Check out our new arrivals</p>
-    <div class="main-container">
-        <div class="co-main-container co-one">
-            <div class="sub-container-01">
-                <div class="book_1_info">
-                    <table>
-                        <tr class="row-column">
-                            <td class="left-column">Written by :</td>
-                            <td>Kathryn Davis</td>
-                        </tr>
-                        <tr class="row-column">
-                            <td class="left-column">Release date :</td>
-                            <td>March 5</td>
-                        </tr>
-                        <tr class="row-column">
-                            <td class="left-column">About the book :</td>
-                            <td class="right-column">This novel might
-                                take a bit of work to fully grasp,
-                                what with its profoundly expansive
-                                and strange breadth, but if you put
-                                in the work, you'll experience a book
-                                that's like no other this year. It involves
-                                science fiction and fantasy.</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="inner-container-01">
-                    <div class="book_1">
-                        <img class="book-img" src="images/new books/book 1.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="co-main-container">
-            <div class="sub-container-02">
-                <div class="book_2_info">
-                    <table>
-                        <tr class="row-column">
-                            <td class="left-column">Written by :</td>
-                            <td>John Lanchester</td>
-                        </tr>
-                        <tr class="row-column">
-                            <td class="left-column">Release date :</td>
-                            <td>March 6</td>
-                        </tr>
-                        <tr class="row-column">
-                            <td class="left-column">About the book :</td>
-                            <td class="right-column">This dystopian fable from John Lanchester tells the story of an island that's hit by The Change and builds the titular Wall in response.<br> It follows a Defender tasked with guarding a section of the Wall from the Others whose failure could mean death, or becoming one of the Others himself.</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="inner-container-02">
-                    <div class="book_2">
-                        <img class="book-img" src="images/new books/book 2.jpg">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="co-main-container">
-            <div class="sub-container-03">
-                    <div class="book_3_info">
-                        <table>
-                            <tr class="row-column">
-                                <td class="left-column">Written by :</td>
-                                <td>Kate Hope Day</td>
-                            </tr>
-                            <tr class="row-column">
-                                <td class="left-column">Release date :</td>
-                                <td>March 12</td>
-                            </tr>
-                            <tr class="row-column">
-                                <td class="left-column">About the book :</td>
-                                <td class="right-column">This highly readable blend of speculative fiction and literary prose takes place in Oregon and tells the story of four neighbors who start to receive visions of themselves in alternate realities. But as a natural disaster nears, they start to wonder if they've misunderstood what's happening to them.</td>
-                            </tr>
-                        </table>
-
-                    </div>
-                <div class="inner-container-03">
-                    <div class="book_3">
-                        <img class="book-img" src="images/new books/book 3.jpg">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="co-main-container">
-            <div class="sub-container-04">
-                     <div class="book_4_info">
-                         <table>
-                             <tr class="row-column">
-                                 <td class="left-column">Written by :</td>
-                                 <td>Marlon James</td>
-                             </tr>
-                             <tr class="row-column">
-                                 <td class="left-column">Release date :</td>
-                                 <td>February 5</td>
-                             </tr>
-                             <tr class="row-column">
-                                 <td class="left-column">About the book :</td>
-                                 <td class="right-column">The first novel of James' new Dark Star Trilogy has been smartly marketed as "an African Game of Thrones," only that sells Black Leopard, Red Wolf short on its incisiveness of prose and its truly magical world-building.</td>
-                             </tr>
-                         </table>
-                    </div>
-                <div class="inner-container-04">
-                    <div class="book_4">
-                        <img class="book-img" src="images/new books/book 4.jpg">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <h3 class="team-h3">MEET THE TEAM</h3>
+<div class="background">
+    <div class="pre-title">
+        <h1>Livre</h1>
+        <h1>Le </h1>
+        <h1>Magasin</h1>
     </div>
-<!--    group-images-->
-
-    <div class="container">
-        <div class="box">
-            <div class="box-row">
-                <div class="box-cell box1 hover-wrapper-1" onmouseover="changeColor01('#22253c');showText01('Nadin Kodithuwakku <br> Student 01')" onmouseout="changeColor01('white');hideText01()">
-                    <img src="images/members-img/st-1.jpg" alt="" class="image-hover1">
-                </div>
-                <div class="box-cell box2 hover-wrapper-2" onmouseover="changeColor02('#22253c');showText02('Shujany Jeyakumar <br> Student 02')" onmouseout="changeColor02('white');hideText02()">
-                    <img src="images/members-img/st-2.jpg" alt="" class="image-hover2">
-                </div>
-                <div class="box-cell box3 hover-wrapper-3" onmouseover="changeColor03('#22253c');showText03('Savidya Perera <br> Student 03')" onmouseout="changeColor03('white');hideText03()">
-                    <img src="images/members-img/st-3.jpg" alt="" class="image-hover3">
-                </div>
-                <div class="box-cell box4 hover-wrapper-4" onmouseover="changeColor04('#22253c');showText04('Shelomi Silva <br> Student 04')" onmouseout="changeColor04('white');hideText04()">
-                    <img src="images/members-img/st-4.jpg" alt="" class="image-hover4">
-                </div>
-            </div>
-
-        </div>
+    <div class="vertical-line">
 
     </div>
-    <div class="container-1">
-        <div class="box">
-            <div class="box-row">
-                <div class="box-cell box1" id="hover-show1" >
-
-                </div>
-                <div class="box-cell box2" id="hover-show2">
-
-                </div>
-                <div class="box-cell box3" id="hover-show3">
-
-                </div>
-                <div class="box-cell box4" id="hover-show4">
-
-                </div>
-            </div>
-
+    <div class="member-detail">
+        <div class="md-heading">
+            <h1>Our Team</h1>
+        </div>
+        <div class="md-content">
+            <p>Shelomi Silva</p>
+            <p>Shujany Jeyakumar</p>
+            <p>Savidya Udesh</p>
+            <p>Nadin Kodithuwakku</p>
         </div>
 
+
     </div>
-
-    <footer class="index-footer">
-        <img class="footer-logo" src="images/logo.png" alt="">
-        <p class="footer-text">&copy; Levre Le Magasin </p>
-
-    </footer>
-</div>
-<nav>
-    <ul>
-        <li>
-            <a class="active" title="home" href="#">Home</a>
-        </li>
-        <li>
-            <a title="Books" href="#">Books</a>
-            <ul>
-                <li>
-                    <a title="sublink-1" href="#">Computer & Technology</a>
-                </li>
-                <li>
-                    <a title="sublink-2" href="#">Mystery, Thriller & Suspense</a>
-                </li>
-                <li>
-                    <a title="sublink-3" href="#">Fiction & Fantasy</a>
-                </li>
-                <li>
-                    <a title="sublink-3" href="#">Romance</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a title="checkout" href="#">Checkout</a>
-        </li>
-        <li>
-            <a title="quiz" href="quiz.html">Quiz</a>
-        </li>
-        <li>
-            <a title="feedback" href="#">Feedback</a>
-        </li>
-        <li>
-            <a title="best-sellers" href="#">Best Sellers</a>
-        </li>
-
-        <li>
-            <a title="sitemap" href="#">Site Map</a>
-        </li>
-    </ul>
-</nav>
-<div id="font-btn">
-    <button id="input-1" type="button" value="Increase Font Size 5px" onclick="increaseFontSizeBy5px()"></button>
-    <button id="input-2" type="button" value="decrease Font Size 5px" onclick="decreaseFontSizeBy5px()"></button>
 </div>
 
 
