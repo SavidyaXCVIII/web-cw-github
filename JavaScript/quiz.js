@@ -90,7 +90,9 @@ function checkAnswer(correctQuestion) {
     generateQuestion();
 }
 function timer001() {
+
     time = get("time001");
+
     c = c -  1;
     duration = 100 - c;
     if (c < 100){
@@ -118,3 +120,22 @@ update = setInterval("timer001()", 1000);
 
 
 window.addEventListener("load", generateQuestion, false);
+
+function changeBackgroundColor() {
+    var div = document.getElementById("time001");
+
+    function getRandomColor() {
+        var letters = ['#fffafb','#23a89b','#131515','#2b2c28'];
+        var color = '';
+        for (var i = 0; i < 6; i++ ) {
+            color = letters[Math.floor(Math.random() * 5)];
+        }
+        return color;
+    }
+
+    function changeColor(){
+        div.style.backgroundColor= getRandomColor();
+    }
+
+    setInterval(changeColor,1000);
+}
