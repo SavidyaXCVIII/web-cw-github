@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10cf920-f9a3-4b96-b40c-ab9472655a17" name="Default Changelist" comment="update 1.4">
-      <change afterPath="$PROJECT_DIR$/Cat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/cat-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/quiz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +32,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/home-page.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3335">
-                  <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+                <state relative-caret-position="201">
+                  <caret line="209" column="55" selection-start-line="209" selection-start-column="55" selection-end-line="209" selection-end-column="55" />
                 </state>
               </provider>
             </entry>
@@ -74,10 +68,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Cat.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
+                <state relative-caret-position="696">
                   <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
                   <folding>
                     <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" />
@@ -176,10 +170,10 @@
         <option value="$PROJECT_DIR$/JavaScript/font-change.js" />
         <option value="$PROJECT_DIR$/JavaScript/index-page.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/home-page.html" />
         <option value="$PROJECT_DIR$/css/screen.css" />
         <option value="$PROJECT_DIR$/Cat.html" />
         <option value="$PROJECT_DIR$/css/cat-styles.css" />
+        <option value="$PROJECT_DIR$/home-page.html" />
       </list>
     </option>
   </component>
@@ -299,7 +293,7 @@
       <workItem from="1560885926839" duration="2036000" />
       <workItem from="1560918631488" duration="10742000" />
       <workItem from="1561014024005" duration="3386000" />
-      <workItem from="1562399291351" duration="2024000" />
+      <workItem from="1562399291351" duration="2358000" />
     </task>
     <task id="LOCAL-00001" summary="update 0.1">
       <created>1558264858359</created>
@@ -319,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180930000" />
+    <option name="totallyTimeSpent" value="181264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3335">
-          <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/presentation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -521,7 +508,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="696">
           <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" />
@@ -533,6 +520,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="209" column="55" selection-start-line="209" selection-start-column="55" selection-end-line="209" selection-end-column="55" />
         </state>
       </provider>
     </entry>
