@@ -86,7 +86,7 @@ function checkAnswer(correctQuestion) {
         marks -= 1;
     }
     pos++;
-    
+
     generateQuestion();
 }
 function timer001() {
