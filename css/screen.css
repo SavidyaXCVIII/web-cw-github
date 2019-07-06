@@ -106,7 +106,7 @@ header .global-overlay {
 .header-index {
     position: relative;
     height: 100vh;
-    background: url("../images/library_books_reading.jpg") center no-repeat;
+    background: url("../images/library_books_reading.jpg") center no-repeat fixed;
     background-size: cover;
 
 }
