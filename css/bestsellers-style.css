@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+.bestseller-body  {
+  font-family: sans-serif;
+  margin: 0;
+}
+.book-type-image img {
+  width: 100%;
+  height: auto;
+
+}
+.book-categories h2 {
+  margin-bottom: 8px;
+  text-align: center;
+}
+.grid-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 15px;
+
+}
+
+/* hover styles */
+.book-listing {
+  position: relative;
+}
+
+.book-type-image {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.book-type-image img {
+  transform: scale(1.1);
+}
+
+.book-title  {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(0,0,0,0.4);
+  color: white;
+  border-radius: 10px;
+
+  /* position the text in the middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-listing:hover .book-title {
+  opacity: 1;
+}
+
+.book-listing:hover .book-type-image img {
+  filter: blur(2px);
+}
+
+
