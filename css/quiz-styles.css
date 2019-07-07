@@ -10,7 +10,8 @@
 .content-wrapper {
     background: url("../images/pallette.png") no-repeat;
     background-size: cover;
-    height: 100vh;
+    position: relative;
+    height: auto;
 
 }
 body {
@@ -41,13 +42,9 @@ button:hover {
 
 }
 .quiz-container {
-    padding-top: 20vh;
-    height: 500px;
     width: 800px;
-    padding-left: 20%;
+    padding: 20vh 0 10% 20%;
     overflow: hidden;
-
-
 
 }
 text {
@@ -58,6 +55,8 @@ p {
     font-size: 1.1vw;
     font-family: 'montserratregular', sans-serif;
     font-weight: normal;
+}
+#results {
 }
 
 #quiz, #results {

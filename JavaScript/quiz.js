@@ -102,7 +102,7 @@ function timer001() {
         window.clearInterval(update);
         results.innerHTML = " <h4> You got " + correct + " of " + Questions.length + " questions correct </h4>";
         results.innerHTML += "<h2> Your Score is : " + marks + "</h2>";
-        results.innerHTML += "<h4>Correct answers are : </h4> <br> <div class=answers''>";
+        results.innerHTML += "<h4>Correct questions are : </h4> <br> <div class=answers''>";
         for (var i in correctQuestionsArray){
             results.innerHTML += correctQuestionsArray[i] + "<br><br>";
         }

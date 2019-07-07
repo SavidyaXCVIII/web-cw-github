@@ -185,6 +185,7 @@ footer {
     height: 230px;
     padding-left: 40px;
     bottom: 0;
+    position: relative;
 }
 footer .footer-logo {
     height: 100px;
