@@ -1,21 +1,35 @@
-
+/*Heading*/
+.heading {
+  text-align: center;
+  padding-top: 25px;
+  display: block;
+  background: rgba(35, 168, 155, 0.36);
+  height: 50px;
+  margin: 15px 0 0 0 ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
 .bestseller-body  {
+  background: url("../images/pallette.png");
   font-family: sans-serif;
   margin: 0;
+  padding-top: 10vh;
+  height: 100vh;
 }
 .book-type-image img {
   width: 100%;
   height: auto;
-
 }
-.book-categories h2 {
-  margin-bottom: 8px;
+.book-categories {
+  margin-bottom: 5px;
   text-align: center;
+  margin-left: 15%;
+  width: 1000px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 .grid-container {
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 15px;
 
 }
