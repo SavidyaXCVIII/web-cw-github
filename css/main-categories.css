@@ -1,10 +1,10 @@
 /*Heading*/
 .heading {
   text-align: center;
-  padding-top: 25px;
+  padding-top: 22px;
   display: block;
-  background: rgba(35, 168, 155, 0.36);
-  height: 50px;
+  background: rgba(255, 250, 251, 0.51);
+  height: 45px;
   margin: 15px 0 0 0 ;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
@@ -24,6 +24,7 @@
   text-align: center;
   margin-left: 15%;
   width: 1000px;
+  background: rgba(255, 250, 251, 0.39);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 .grid-container {
