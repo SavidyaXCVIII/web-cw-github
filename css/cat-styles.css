@@ -51,3 +51,39 @@ body{
     align-content: center;
     left: 15%;
 }
+
+.add-to-cart{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #23a89b;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-default{
+    flex: 1;
+    transition: 0.4s;
+    color: #fff;
+    background-color: #23a89b;
+    text-transform: uppercase;
+}
+.btn {
+    background-color: #23a89b;
+    color: #fff;
+    border: 0;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    /*margin: 20px;*/
+    font-size: 1.2vw;
+}
+.btn:hover {
+    background-color: #46494c;
+    color: #65b1ff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.5s;
+}
+.shopping-cart {
+   width: 50px;
+}
