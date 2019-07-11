@@ -1,23 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Quiz</title>
     <!--    global styles-->
-    <link rel="stylesheet" href="../css/screen.css" type="text/css">
     <link rel="stylesheet" href="../css/global-styles.css" type="text/css">
     <!--    web-font-kit-css-->
     <link rel="stylesheet" href="../fonts/WebFontKit/stylesheet.css" type="text/css">
     <!--    local styles-->
     <link rel="stylesheet" href="../css/cat-styles.css" type="text/css">
-    <script src="../JavaScript/quiz.js">  </script>
+
 </head>
 <body>
 
@@ -70,20 +63,20 @@
 </header>
 
 <div id="content">
-    <div class="details main">
-        <div class="main-left">Image</div>
-        <div class="main-right">Des</div>
+    <div class="details-main" id="hideShow">
+        <div class="details-column left">Image</div>
+        <div class="details-column right">Des</div>
     </div>
     <section class="products">
         <div class="product-card">
-            <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+            <div class="product-image" >
+                <a href="#hideShow"><img onclick="showHideDiv()" src="https://picsum.photos/200/250"></a>
             </div>
             <div class="product-info">
                 <h5>Winter Jacket</h5>
                 <h6>$99.99</h6>
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <button  type="button" class="btn btn-default">
                         Add to Cart
                     </button>
                     <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
@@ -172,6 +165,7 @@
             </div>
         </div>
 
+
     </section>
 </div>
 
@@ -179,5 +173,6 @@
     <img class="footer-logo" src="../images/logo.png" alt="">
     <p class="footer-text">&copy; Levre Le Magasin </p>
 </footer>
+<script src="../JavaScript/sub-cat.js">  </script>
 </body>
 </html>
