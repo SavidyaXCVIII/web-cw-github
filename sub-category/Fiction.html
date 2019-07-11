@@ -3,15 +3,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quiz</title>
+    <title>Fiction and Fantasy</title>
     <!--    global styles-->
-    <link rel="stylesheet" href="../css/screen.css" type="text/css">
     <link rel="stylesheet" href="../css/global-styles.css" type="text/css">
     <!--    web-font-kit-css-->
     <link rel="stylesheet" href="../fonts/WebFontKit/stylesheet.css" type="text/css">
     <!--    local styles-->
     <link rel="stylesheet" href="../css/cat-styles.css" type="text/css">
-    <script src="../JavaScript/quiz.js">  </script>
 </head>
 <body>
 
@@ -25,19 +23,25 @@
                     <a class="active" title="home" href="../home-page.html">Home</a>
                 </li>
                 <li>
-                    <a title="Books" href="#">Books</a>
+                    <a title="Books" href="../Categories.html">Categories</a>
                     <ul>
                         <li>
-                            <a title="sublink-1" href="#">Computer & Technology</a>
+                            <a title="sublink-1" href="../sub-category/Mystry.html">Mystery, Thriller & Suspense</a>
                         </li>
                         <li>
-                            <a title="sublink-2" href="#">Mystery, Thriller & Suspense</a>
+                            <a title="sublink-2" href="../sub-category/Fiction.html">Fiction & Fantasy</a>
                         </li>
                         <li>
-                            <a title="sublink-3" href="#">Fiction & Fantasy</a>
+                            <a title="sublink-3" href="../sub-category/Horror.html">Horror</a>
                         </li>
                         <li>
-                            <a title="sublink-3" href="#">Romance</a>
+                            <a title="sublink-3" href="../sub-category/Action.html">Action</a>
+                        </li>
+                        <li>
+                            <a title="sublink-3" href="../sub-category/Children.html">Children</a>
+                        </li>
+                        <li>
+                            <a title="sublink-3" href="../sub-category/Romance.html">Romance</a>
                         </li>
                     </ul>
                 </li>
@@ -51,10 +55,6 @@
                     <a title="feedback" href="#">Feedback</a>
                 </li>
                 <li>
-                    <a title="best-sellers" href="#">Best Sellers</a>
-                </li>
-
-                <li>
                     <a title="sitemap" href="#">Site Map</a>
                 </li>
             </ul>
@@ -63,14 +63,14 @@
 
 </header>
 <<div id="content">
-    <div class="details main">
-        <div class="main-left">Image</div>
-        <div class="main-right">Des</div>
+    <div class="details-main" id="hideShow">
+        <div class="details-column left">Image</div>
+        <div class="details-column right">Des</div>
     </div>
     <section class="products">
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <a href="#hideShow"><img onclick="showHideDiv()" src="cat-images/Fiction/fiction-book-1.jpg"></a>
             </div>
             <div class="product-info">
                 <h5>Winter Jacket</h5>
@@ -86,7 +86,7 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Fiction/fiction-book-2.jpg">
             </div>
             <div class="product-info">
                 <h5>Winter Jacket</h5>
@@ -102,7 +102,7 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Fiction/fiction-book-3.jpg">
             </div>
             <div class="product-info">
                 <h5>Winter Jacket</h5>
@@ -118,7 +118,7 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Fiction/fiction-book-4.jpg">
             </div>
             <div class="product-info">
                 <h5>Winter Jacket</h5>
@@ -134,7 +134,7 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Fiction/fiction-book-5.jpg">
             </div>
             <div class="product-info">
                 <h5>Winter Jacket</h5>
@@ -150,7 +150,7 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Fiction/fiction-book-6.jpg">
             </div>
             <div class="product-info">
                 <h5>Winter Jacket</h5>
@@ -172,5 +172,6 @@
     <img class="footer-logo" src="../images/logo.png" alt="">
     <p class="footer-text">&copy; Levre Le Magasin </p>
 </footer>
+<script src="../JavaScript/sub-cat.js">  </script>
 </body>
 </html>

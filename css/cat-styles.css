@@ -27,6 +27,7 @@ body{
 
 .product-image img {
     width: 200px;
+    height: 300px;
     padding-left: 30px;
 }
 
@@ -109,4 +110,5 @@ body{
 
 
 }
+
 
