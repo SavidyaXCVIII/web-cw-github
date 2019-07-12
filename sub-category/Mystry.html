@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quiz</title>
+    <title>Mystery and Thriller</title>
     <!--    global styles-->
     <link rel="stylesheet" href="../css/global-styles.css" type="text/css">
     <!--    web-font-kit-css-->
@@ -25,19 +25,25 @@
                     <a class="active" title="home" href="../home-page.html">Home</a>
                 </li>
                 <li>
-                    <a title="Books" href="#">Books</a>
+                    <a title="Books" href="../Categories.html">Categories</a>
                     <ul>
                         <li>
-                            <a title="sublink-1" href="#">Computer & Technology</a>
+                            <a title="sublink-1" href="../sub-category/Mystry.html">Mystery, Thriller & Suspense</a>
                         </li>
                         <li>
-                            <a title="sublink-2" href="#">Mystery, Thriller & Suspense</a>
+                            <a title="sublink-2" href="../sub-category/Fiction.html">Fiction & Fantasy</a>
                         </li>
                         <li>
-                            <a title="sublink-3" href="#">Fiction & Fantasy</a>
+                            <a title="sublink-3" href="../sub-category/Horror.html">Horror</a>
                         </li>
                         <li>
-                            <a title="sublink-3" href="#">Romance</a>
+                            <a title="sublink-3" href="../sub-category/Action.html">Action</a>
+                        </li>
+                        <li>
+                            <a title="sublink-3" href="../sub-category/Children.html">Children</a>
+                        </li>
+                        <li>
+                            <a title="sublink-3" href="../sub-category/Romance.html">Romance</a>
                         </li>
                     </ul>
                 </li>
@@ -51,10 +57,6 @@
                     <a title="feedback" href="#">Feedback</a>
                 </li>
                 <li>
-                    <a title="best-sellers" href="#">Best Sellers</a>
-                </li>
-
-                <li>
                     <a title="sitemap" href="#">Site Map</a>
                 </li>
             </ul>
@@ -65,16 +67,30 @@
 
 <div id="content">
     <div class="details-main" id="hideShow">
-        <div class="details-column left">Image</div>
-        <div class="details-column right">Des</div>
+        <div class="details-column left">
+            <img src="cat-images/Mystery/mystery-book-1.jpg">
+        </div>
+        <div class="details-column right">
+            <table>
+                <tr class="row-name">
+                    <td>Marlon James</td>
+                </tr>
+                <tr class="row-author">
+                    <td>February 5</td>
+                </tr>
+                <tr class="row-about">
+                    <td class="right-column">The first novel of James' new Dark Star Trilogy has been smartly marketed as "an African Game of Thrones," only that sells Black Leopard, Red Wolf short on its incisiveness of prose and its truly magical world-building.</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <section class="products">
         <div class="product-card">
             <div class="product-image" >
-                <a href="#hideShow"><img onclick="showHideDiv()" src="https://picsum.photos/200/250"></a>
+                <a href="#hideShow"><img onclick="showHideDiv()" src="cat-images/Mystery/mystery-book-1.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>Winter Jacket</h5>
+                <h5>Force of Nature</h5>
                 <h6>$99.99</h6>
                 <div class="add-to-cart">
                     <button  type="button" class="btn btn-default">
@@ -87,13 +103,13 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Mystery/mystery-book-2.jpg">
             </div>
             <div class="product-info">
-                <h5>Winter Jacket</h5>
+                <h5>The Outsider</h5>
                 <h6>$99.99</h6>
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
                     <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
@@ -103,13 +119,13 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Mystery/mystery-book-3.jpg">
             </div>
             <div class="product-info">
-                <h5>Winter Jacket</h5>
+                <h5>The Good Daughter</h5>
                 <h6>$99.99</h6>
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
                     <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
@@ -119,13 +135,13 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Mystery/mystery-book-4.jpg">
             </div>
             <div class="product-info">
-                <h5>Winter Jacket</h5>
+                <h5>The Death of Mrs.Westway</h5>
                 <h6>$99.99</h6>
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
                     <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
@@ -135,13 +151,13 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Mystery/mystery-book-5.jpg">
             </div>
             <div class="product-info">
-                <h5>Winter Jacket</h5>
+                <h5>Jane Doe</h5>
                 <h6>$99.99</h6>
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
                     <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
@@ -151,14 +167,14 @@
 
         <div class="product-card">
             <div class="product-image">
-                <img src="https://picsum.photos/200/250">
+                <img src="cat-images/Mystery/mystery-book-6.jpg">
             </div>
             <div class="product-info">
-                <h5>Winter Jacket</h5>
+                <h5>The Last Time I Lied</h5>
                 <h6>$99.99</h6>
 
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
                         <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
