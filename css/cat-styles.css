@@ -95,6 +95,12 @@ body{
     padding: 10px;
     height: 360px;
 }
+.details-main img{
+    width: 250px;
+    height: 360px;
+    float: right;
+
+}
 .details-main:after {
     content: "";
     display: table;
