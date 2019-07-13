@@ -62,108 +62,225 @@
     </div>
 
 </header>
+
 <div id="content">
-    <div class="details-main" id="hideShow">
-        <div class="details-column left">Image</div>
-        <div class="details-column right">Des</div>
+    <div class="main_div">
+        <div class="inner_div">
+            <div class="details-main" id="Menu1">
+                <div class="details-column left">
+                    <img src="cat-images/Romance/romance-book-1.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-1">
+                        <tr class="row-name">
+                            <td>The Coice</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Nicholas Sparks</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">Travis Parker has everything a man could want: a good job, loyal friends,
+                                even a waterfront home in small-town North Carolina. In full pursuit of the good life—boating, swimming,
+                                and regular barbecues with his good-natured buddies—he holds the vague conviction that a serious relationship with a woman would only cramp his style. That is, until Gabby Holland moves in next door.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu2">
+                <div class="details-column left">
+                    <img src="cat-images/Romance/romance-book-2.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-2">
+                        <tr class="row-name">
+                            <td>From Lukov With Love</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Mariana Zapata</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">If someone were to ask Jasmine Santos to describe the last
+                                few years of her life with a single word, it would definitely be a four-letter one.
+                                After seventeen years--and countless broken bones and broken promises--she knows her window to compete in figure skating is coming to a close.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu3">
+                <div class="details-column left">
+                    <img src="cat-images/Romance/romance-book-3.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-3">
+                        <tr class="row-name">
+                            <td>The Longest Ride</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Nicholas Sparks</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">Based on the bestselling novel by master storyteller Nicholas Sparks,
+                                THE LONGEST RIDE centers on the star-crossed love affair between Luke, a former champion bull
+                                rider looking to make a comeback, and Sophia, a college student who is about to embark upon her dream job in New York City's art world.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu4" >
+                <div class="details-column left">
+                    <img src="cat-images/Romance/romance-book-4.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-4">
+                        <tr class="row-name">
+                            <td>Roomies</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Christina Lauren</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">For months Holland Bakker has invented excuses to descend into the subway
+                                station near her apartment, drawn to the captivating music performed by her street musician
+                                crush. Lacking the nerve to actually talk to the gorgeous stranger, fate steps in one night in the form of a drunken attacker.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu5" >
+                <div class="details-column left">
+                    <img src="cat-images/Romance/romance-book-5.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-5">
+                        <tr class="row-name">
+                            <td>Safe Haven</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Nicholas Sparks</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">Katie Feldman moves to a small town on the North Carolina coast, determined to
+                                make a new life for herself. She takes a job as a waitress and keeps a low profile, but she is soon
+                                won over by the warmth and caring of the close-knit community, especially that of widower Alex. With the help of Alex and his children, Katie learns to love and trust again </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu6" >
+                <div class="details-column left">
+                    <img src="cat-images/Romance/romance-book-6.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-6">
+                        <tr class="row-name">
+                            <td>A Walk To Remember</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Nicholas Sparks</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">Set in North Carolina, "A Walk To Remember" follows the rite of passage of a
+                                jaded, aimless high school senior who falls in love with a guileless young woman he and his friends
+                                once scorned. The two develop a powerful and inspirational relationship in which they discover truths that take most people a lifetime to learn.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
+
     <section class="products">
         <div class="product-card">
-            <div class="product-image">
-                <a href="#hideShow"><img onclick="showHideDiv()" src="cat-images/Romance/romance-book-1.jpg"></a>
+            <div class="product-image" >
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu1')" src="cat-images/Romance/romance-book-1.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>The Choice</h5>
-                <h6>$99.99</h6>
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$99</text>
+                    <button  type="button" class="btn btn-default">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
+
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Romance/romance-book-2.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu2')" src="cat-images/Romance/romance-book-2.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>From Lukeov with Love</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$99</text>
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Romance/romance-book-3.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu3')" src="cat-images/Romance/romance-book-3.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>The Longest Ride</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$99</text>
+
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Romance/romance-book-4.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu4')" src="cat-images/Romance/romance-book-4.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>Roomies</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$99</text>
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Romance/romance-book-5.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu5')" src="cat-images/Romance/romance-book-5.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>Safe Haven</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$99</text>
+
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Romance/romance-book-6.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu6')" src="cat-images/Romance/romance-book-6.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>A Walk to Remember</h5>
-                <h6>$99.99</h6>
-
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$99</text>
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
+
 
     </section>
 </div>
@@ -172,6 +289,6 @@
     <img class="footer-logo" src="../images/logo.png" alt="">
     <p class="footer-text">&copy; Levre Le Magasin </p>
 </footer>
-</body>
 <script src="../JavaScript/sub-cat.js">  </script>
+</body>
 </html>
