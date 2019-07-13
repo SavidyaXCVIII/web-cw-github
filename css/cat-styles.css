@@ -67,7 +67,6 @@ body{
     flex: 1;
     display: flex;
     align-items: center;
-    background: #23a89b;
     color: #fff;
     margin: 5px;
     border-radius: 5px;
@@ -95,7 +94,7 @@ body{
     cursor: pointer;
     border-radius: 25px;
     margin: 10px;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 .btn:hover {
     background-color: #46494c;

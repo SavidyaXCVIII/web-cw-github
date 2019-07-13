@@ -181,6 +181,7 @@ footer {
     height: 300px;
     bottom: 0;
     position: relative;
+
 }
 footer .footer-logo {
     height: 100px;
@@ -192,7 +193,7 @@ footer p.footer-text {
 }
 .footer-row {
     float: left;
-    height: 300px;
+    height: 250px;
 }
 .footer-main:after {
     content: '';
@@ -202,15 +203,25 @@ footer p.footer-text {
 .footer-left {
     width: 29%;
     margin-top: 15px;
-    border-right:1px solid black ;
+    border-right:1px solid #7a7a7a ;
     height: 270px;
 
 }
 .footer-right {
     width: 30%;
+    margin-top: 15px;
+}
+.footer-middle-right {
+    width: 15%;
+    margin: 50px 0 0 100px;
 }
 .footer-middle {
-    width: 40%;
+    width: 16%;
+    margin: 15px 0 0 20px;
+
+}
+.footer-middle p {
+    font-size: 0.8vw;
 }
 .footer-left {
     background: #131515;
@@ -230,6 +241,78 @@ footer p.footer-text {
 .footer-text {
     width: 70%;
     padding-left: 25%;
+}
+.footer-text h1,p, h2{
+    color: #7a7a7a;
+}
+.footer-right-line {
+    border-top: 1px solid #7a7a7a;
+    width: 80px;
+    padding: 10px;
+
+}
+.footer-middle-right .footer-right-line {
+    width: 40px;
+}
+
+
+.links:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.icons {
+    float: left;
+    padding-right: 10px;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+    background: #7a7a7a;
+    color: white;
+}
+
+.fa-twitter {
+    background: #7a7a7a;
+    color: white;
+}
+
+.fa-google {
+    background: #7a7a7a;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #7a7a7a;
+    color: white;
+}
+.button {
+    margin: 20px 20px 20px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #131515;
+    color: #7a7a7a;
+    border: 1px solid #7a7a7a;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.button:hover {
+    color: #ffffff;
+    border:1px solid #ffffff;
 }
 
 
