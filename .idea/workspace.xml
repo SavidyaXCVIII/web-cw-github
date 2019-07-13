@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64019b09-c94d-4502-a65e-6d7d5d80fa51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/sub-cat.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/sub-cat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/cat-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cat-styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Action.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Action.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Children.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Children.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Fiction.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Fiction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Horror.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Horror.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Mystry.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Mystry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Romance.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Romance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-category/cat-images/Action/action-book-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/cat-images/Action/action-book-1.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,15 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/sub-cat.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sub-category/Mystry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5425">
-              <caret line="15" selection-start-line="15" selection-end-line="296" selection-end-column="7" />
+            <state relative-caret-position="119">
+              <caret line="279" column="42" selection-start-line="279" selection-start-column="42" selection-end-line="279" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -41,17 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sub-category/Action.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="197" column="40" lean-forward="true" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/cat-styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2352">
-              <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="279" column="44" selection-start-line="279" selection-start-column="44" selection-end-line="279" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -59,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sub-category/Children.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
+            <state relative-caret-position="402">
+              <caret line="284" column="44" selection-start-line="284" selection-start-column="44" selection-end-line="284" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -68,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2341">
-              <caret line="188" column="32" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
+            <state relative-caret-position="389">
+              <caret line="280" column="44" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -77,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sub-category/Horror.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1813">
-              <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
+            <state relative-caret-position="188">
+              <caret line="274" column="44" selection-start-line="274" selection-start-column="44" selection-end-line="274" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -86,17 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sub-category/Romance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="241" column="18" lean-forward="true" selection-start-line="241" selection-start-column="18" selection-end-line="241" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="132" column="34" lean-forward="true" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
+            <state relative-caret-position="453">
+              <caret line="275" column="42" selection-start-line="275" selection-start-column="42" selection-end-line="275" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -110,8 +83,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/JavaScript/sub-cat.js" />
-        <option value="$PROJECT_DIR$/sub-category/Mystry.html" />
         <option value="$PROJECT_DIR$/css/cat-styles.css" />
+        <option value="$PROJECT_DIR$/sub-category/Mystry.html" />
         <option value="$PROJECT_DIR$/sub-category/Action.html" />
         <option value="$PROJECT_DIR$/sub-category/Children.html" />
         <option value="$PROJECT_DIR$/sub-category/Fiction.html" />
@@ -131,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="807" />
     <option name="y" value="41" />
     <option name="width" value="975" />
@@ -218,7 +191,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24978000" />
+    <option name="totallyTimeSpent" value="26963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -274,20 +247,6 @@
     <entry file="file://$PROJECT_DIR$/JavaScript/sub-cat.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Action.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="197" column="40" lean-forward="true" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Children.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Categories.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1687">
@@ -298,13 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2341">
-          <caret line="188" column="32" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -312,24 +264,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Horror.html">
+    <entry file="file://$PROJECT_DIR$/sub-category/Mystry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1813">
-          <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="279" column="42" selection-start-line="279" selection-start-column="42" selection-end-line="279" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Mystry.html">
+    <entry file="file://$PROJECT_DIR$/sub-category/Action.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5425">
-          <caret line="15" selection-start-line="15" selection-end-line="296" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="279" column="44" selection-start-line="279" selection-start-column="44" selection-end-line="279" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Children.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="284" column="44" selection-start-line="284" selection-start-column="44" selection-end-line="284" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="280" column="44" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Horror.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="274" column="44" selection-start-line="274" selection-start-column="44" selection-end-line="274" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sub-category/Romance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="241" column="18" lean-forward="true" selection-start-line="241" selection-start-column="18" selection-end-line="241" selection-end-column="18" />
+        <state relative-caret-position="453">
+          <caret line="275" column="42" selection-start-line="275" selection-start-column="42" selection-end-line="275" selection-end-column="42" />
         </state>
       </provider>
     </entry>
