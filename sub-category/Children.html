@@ -69,108 +69,250 @@
     </div>
 
 </header>
-<<div id="content">
-    <div class="details-main" id="hideShow">
-        <div class="details-column left">Image</div>
-        <div class="details-column right">Des</div>
+<div class="left-side">
+    <div class="content-left">
+        <div class="dropdown">
+            <button class="dropbtn">Change background color</button>
+            <div class="dropdown-content">
+                <a onclick="bgBlack()">Black</a>
+                <a onclick="bgWhite()">White</a>
+                <a onclick="bgBlue()">Blue</a>
+            </div>
+        </div>
     </div>
+    <div class="content-right">
+        <div class="dropdown">
+            <button class="dropbtn">Change text color</button>
+            <div class="dropdown-content">
+                <a onclick="txtBlack()">Black</a>
+                <a onclick="txtWhite()">White</a>
+                <a onclick="txtBlue()">Blue</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="content">
+    <div class="main_div">
+        <div class="inner_div">
+            <div class="details-main" id="Menu1">
+                <div class="details-column left">
+                    <img src="cat-images/Children/children-book-1.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-1">
+                        <tr class="row-name">
+                            <td>Shouting in the Rain</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Lynda Mullay</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">Delsie loves tracking the weather--lately, though, it seems the squalls
+                                are in her own life. She's always lived with her kindhearted Grammy, but now she's looking at
+                                their life with new eyes and wishing she could have a "regular family".</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu2">
+                <div class="details-column left">
+                    <img src="cat-images/Children/children-book-2.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-2">
+                        <tr class="row-name">
+                            <td>Hair Love</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Matthew A. Cherry</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">Lively, loving celebration of a dad, daughter, and her hair.
+                                Read Common Sense Media's Hair Love review, age rating, and parents guide</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu3">
+                <div class="details-column left">
+                    <img src="cat-images/Children/children-book-3.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-3">
+                        <tr class="row-name">
+                            <td>Babymouse</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Matthew Holm</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">It’s the same thing every day for Babymouse. Where is the glamour?
+                                The excitement? The adventure? Nothing ever changes, until . . . Babymouse hears about Felicia
+                                Furrypaws’s exclusive slumber party. Will Babymouse get invited? Will her best friend, Wilson,
+                                forgive her if she misses their monster movie marathon? </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu4" >
+                <div class="details-column left">
+                    <img src="cat-images/Children/children-book-4.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-4">
+                        <tr class="row-name">
+                            <td>Matilda</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Quentin Blake</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">
+                                Matilda is a little girl who is far too good to be true.
+                                At age five-and-a-half she's knocking off double-digit multiplication problems and
+                                blitz-reading Dickens. But everything is not perfect in Matilda's world</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu5" >
+                <div class="details-column left">
+                    <img src="cat-images/Children/children-book-5.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-5">
+                        <tr class="row-name">
+                            <td>Peanuts</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Mickey Mathews</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">Peanuts Mad Libs includes 21 original stores based on the classic
+                                cartoon comic strip Peanuts. Fans young and old will love to play along with their favorite
+                                characters like Charlie Brown, Peppermint Patty, Woodstock, and more.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu6" >
+                <div class="details-column left">
+                    <img src="cat-images/Children/children-book-6.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-6">
+                        <tr class="row-name">
+                            <td>Bella Broomstick</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Lou Kuenzier</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">This delightful new series, full of doodle illustrations and themes of
+                                friendship and fitting in, will have young readers bewitched from the very first page!
+                                Bella Broomstick is a hopeless witch. So hopeless that nasty Aunt Hemlock is sending her to
+                                live in Person World - with the warning that she must never do magic again!  </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="products">
         <div class="product-card">
-            <div class="product-image">
-                <a href="#hideShow"><img onclick="showHideDiv()" src="cat-images/Children/children-book-1.jpg"></a>
+            <div class="product-image" >
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu1')" src="cat-images/Children/children-book-1.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>Shouting at the Rain</h5>
-                <h6>$99.99</h6>
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$9.4</text>
+                    <button  type="button" class="btn btn-default">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
+
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Children/children-book-2.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu2')" src="cat-images/Children/children-book-2.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>Hair Love</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$7.8</text>
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Children/children-book-3.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu3')" src="cat-images/Children/children-book-3.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>School Tripped</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$6.9</text>
+
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Children/children-book-4.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu4')" src="cat-images/Children/children-book-4.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>Matilda</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$8.2</text>
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Children/children-book-5.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu5')" src="cat-images/Children/children-book-5.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>Peanuts</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$7.6</text>
+
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Children/children-book-6.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu6')" src="cat-images/Children/children-book-6.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>Bella Broomstick</h5>
-                <h6>$99.99</h6>
-
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$9.1</text>
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
+
 
     </section>
 </div>
