@@ -1,32 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64019b09-c94d-4502-a65e-6d7d5d80fa51" name="Default Changelist" comment="" />
+    <list default="true" id="64019b09-c94d-4502-a65e-6d7d5d80fa51" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/sub-category/Action.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Action.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-category/Children.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Children.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-category/Fiction.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Fiction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-category/Horror.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Horror.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-category/Mystry.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Mystry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-category/Romance.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Romance.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sub-category/Mystry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1519">
-              <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-              <folding>
-                <element signature="e#6337#6343#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="279" column="42" selection-start-line="279" selection-start-column="42" selection-end-line="279" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/cat-styles.css">
+        <entry file="file://$PROJECT_DIR$/sub-category/Action.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="119">
+              <caret line="279" column="44" selection-start-line="279" selection-start-column="44" selection-end-line="279" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sub-category/Children.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="284" column="44" selection-start-line="284" selection-start-column="44" selection-end-line="284" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -34,15 +50,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3255">
-              <caret line="155" column="33" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
+            <state relative-caret-position="389">
+              <caret line="280" column="44" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/sub-category/Horror.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="274" column="44" selection-start-line="274" selection-start-column="44" selection-end-line="274" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sub-category/Romance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="275" column="42" selection-start-line="275" selection-start-column="42" selection-end-line="275" selection-end-column="42" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -53,9 +82,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sub-category/Mystry.html" />
-        <option value="$PROJECT_DIR$/sub-category/Fiction.html" />
+        <option value="$PROJECT_DIR$/JavaScript/sub-cat.js" />
         <option value="$PROJECT_DIR$/css/cat-styles.css" />
+        <option value="$PROJECT_DIR$/sub-category/Mystry.html" />
+        <option value="$PROJECT_DIR$/sub-category/Action.html" />
+        <option value="$PROJECT_DIR$/sub-category/Children.html" />
+        <option value="$PROJECT_DIR$/sub-category/Fiction.html" />
+        <option value="$PROJECT_DIR$/sub-category/Horror.html" />
+        <option value="$PROJECT_DIR$/sub-category/Romance.html" />
       </list>
     </option>
   </component>
@@ -71,10 +105,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="732" />
-    <option name="y" value="7" />
+    <option name="x" value="807" />
+    <option name="y" value="41" />
     <option name="width" value="975" />
-    <option name="height" value="1025" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -96,7 +130,25 @@
             <path>
               <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
               <item name="sub-category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="sub-category" type="462c0819:PsiDirectoryNode" />
+              <item name="cat-images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="sub-category" type="462c0819:PsiDirectoryNode" />
+              <item name="cat-images" type="462c0819:PsiDirectoryNode" />
+              <item name="Action" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,12 +191,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5812000" />
+    <option name="totallyTimeSpent" value="26963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13087249" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -178,47 +231,78 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4207" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quiz.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Categories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#3985#3991#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3255">
-          <caret line="155" column="33" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/cat-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="2352">
+          <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/sub-cat.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1687">
+          <caret line="104" column="66" selection-start-line="104" selection-start-column="66" selection-end-line="104" selection-end-column="66" />
+          <folding>
+            <element signature="e#3985#3991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="132" column="34" lean-forward="true" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sub-category/Mystry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1519">
-          <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-          <folding>
-            <element signature="e#6337#6343#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="279" column="42" selection-start-line="279" selection-start-column="42" selection-end-line="279" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Action.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="279" column="44" selection-start-line="279" selection-start-column="44" selection-end-line="279" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Children.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="284" column="44" selection-start-line="284" selection-start-column="44" selection-end-line="284" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="280" column="44" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Horror.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="274" column="44" selection-start-line="274" selection-start-column="44" selection-end-line="274" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Romance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="275" column="42" selection-start-line="275" selection-start-column="42" selection-end-line="275" selection-end-column="42" />
         </state>
       </provider>
     </entry>

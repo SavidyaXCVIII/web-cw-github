@@ -63,108 +63,246 @@
     </div>
 
 </header>
-<div id="content">
-    <div class="details-main" id="hideShow">
-        <div class="details-column left">Image</div>
-        <div class="details-column right">Des</div>
+<div class="left-side">
+    <div class="content-left">
+        <div class="dropdown">
+            <button class="dropbtn">Change background color</button>
+            <div class="dropdown-content">
+                <a onclick="bgBlack()">Black</a>
+                <a onclick="bgWhite()">White</a>
+                <a onclick="bgBlue()">Blue</a>
+            </div>
+        </div>
     </div>
+    <div class="content-right">
+        <div class="dropdown">
+            <button class="dropbtn">Change text color</button>
+            <div class="dropdown-content">
+                <a onclick="txtBlack()">Black</a>
+                <a onclick="txtWhite()">White</a>
+                <a onclick="txtBlue()">Blue</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="content">
+    <div class="main_div">
+        <div class="inner_div">
+            <div class="details-main" id="Menu1">
+                <div class="details-column left">
+                    <img src="cat-images/Horror/horror-book-1.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-1">
+                        <tr class="row-name">
+                            <td>The Devil</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Ellen Datlow</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">Nothing much exciting rolls through Violet White’s sleepy, seaside town…
+                                until River West comes along. River rents the guest house behind Violet’s crumbling estate,
+                                and as eerie, grim things start to happen, Violet begins to wonder about the boy living in her
+                                backyard. </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu2">
+                <div class="details-column left">
+                    <img src="cat-images/Horror/horror-book-2.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-2">
+                        <tr class="row-name">
+                            <td>FOE</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Iain Reid</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">In Iain Reid’s second haunting, philosophical puzzle of a novel,
+                                set in the near-future, Junior and Henrietta live a comfortable, solitary life on their farm,
+                                far from the city lights, but in close quarters with each other. </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu3">
+                <div class="details-column left">
+                    <img src="cat-images/Horror/horror-book-3.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-3">
+                        <tr class="row-name">
+                            <td>Craven Manor</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Darcy Coates</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">Daniel is desperate for a job. When someone slides a note under his door
+                                offering him the groundskeeper’s position at an old estate, it seems too good to be true.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu4" >
+                <div class="details-column left">
+                    <img src="cat-images/Horror/horror-book-4.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-4">
+                        <tr class="row-name">
+                            <td>The Siren and the Specter</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Jonathan Janz</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">When David Caine, a celebrated skeptic of the supernatural, is invited by an old friend to spend a month in “the most haunted house in Virginia,” he believes the case will be like any other. But the Alexander House is different. Built by a 1700s land baron to contain the madness
+                                and depravity of his eldest son, the house is plagued by shadows of the past and the lingering taint of bloodshed</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu5" >
+                <div class="details-column left">
+                    <img src="cat-images/Horror/horror-book-5.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-5">
+                        <tr class="row-name">
+                            <td>The Ghost of graylock</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Dan Poblocki</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column">It was meant to be a place of healing - a hospital where children and teenagers
+                                with mental disorders would be cared for and perhaps even cured. But something went wrong.
+                                Several young patients died under mysterious circumstances. Eventually, the hospital was shut down, the building abandoned and left to rot deep in the woods</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="details-main" id="Menu6" >
+                <div class="details-column left">
+                    <img src="cat-images/Horror/horror-book-6.jpg">
+                </div>
+                <div class="details-column right">
+                    <table class="book-6">
+                        <tr class="row-name">
+                            <td>IT</td>
+                        </tr>
+                        <tr class="row-author">
+                            <td>By Stephen King</td>
+                        </tr>
+                        <tr class="row-about">
+                            <td class="right-column"> The story follows the experiences of seven children as they are terrorized by an evil
+                                entity that exploits the fears and phobias of its victims to disguise itself while hunting its prey.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="products">
         <div class="product-card">
-            <div class="product-image">
-                <a href="#hideShow"><img onclick="showHideDiv()" src="cat-images/Horror/horror-book-1.jpg"></a>
+            <div class="product-image" >
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu1')" src="cat-images/Horror/horror-book-1.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>The Devil and the Deep</h5>
-                <h6>$99.99</h6>
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$8.9</text>
+                    <button  type="button" class="btn btn-default">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
+
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Horror/horror-book-2.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu2')" src="cat-images/Horror/horror-book-2.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>FOE</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$7.5</text>
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Horror/horror-book-3.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu3')" src="cat-images/Horror/horror-book-3.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>Craven Manor</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$8.3</text>
+
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Horror/horror-book-4.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu4')" src="cat-images/Horror/horror-book-4.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>The Siren and the Specter</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$6.9</text>
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Horror/horror-book-5.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu5')" src="cat-images/Horror/horror-book-5.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>The Ghost of Graylock</h5>
-                <h6>$99.99</h6>
+
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$7</text>
+
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <img src="cat-images/Horror/horror-book-6.jpg">
+                <a href="#hideShow"><img onclick="toggleVisibility('Menu6')" src="cat-images/Horror/horror-book-6.jpg"></a>
             </div>
             <div class="product-info">
-                <h5>IT</h5>
-                <h6>$99.99</h6>
-
                 <div class="add-to-cart">
-                    <button type="button" class="btn btn-default" onclick="">
+                    <text class="price">$8.9</text>
+                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
                         Add to Cart
                     </button>
-                    <img class="shopping-cart" src="https://img.icons8.com/clouds/100/000000/buy.png">
                 </div>
             </div>
         </div>
+
 
     </section>
 </div>
