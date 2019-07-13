@@ -141,7 +141,7 @@ body{
 
 /*drop down*/
 .dropbtn {
-    background-color: #22253c;
+    background-color: #46494c;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -155,8 +155,12 @@ body{
     display: inline-block;
     height: 20%;
 }
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
 .content-right{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .dropdown-content {
@@ -184,8 +188,6 @@ body{
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #000000;
-}
+
 
 

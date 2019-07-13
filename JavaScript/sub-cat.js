@@ -29,8 +29,13 @@ function bgBlack() {
 function bgWhite() {
     document.body.style.backgroundColor = "white";
 }
-function bgBlue() {
+function bgLightBlue() {
+    document.body.style.backgroundColor = "#23a89b";
+}
+function bgDarkBlue() {
     document.body.style.backgroundColor = "#22253c";
+    document.getElementsByClassName("dropbtn").style.backgroundColor="black";
+
 }
 function txtBlack() {
     document.body.style.color = "black";
@@ -39,7 +44,11 @@ function txtBlack() {
 function txtWhite() {
     document.body.style.color = "white";
 }
-function txtBlue() {
+function txtLightBlue() {
+    document.body.style.color = "#23a89b";
+}
+
+function txtDarkBlue() {
     document.body.style.color = "#22253c";
 }
 
