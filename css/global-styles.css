@@ -164,24 +164,22 @@ div .wrapper {
     color: #333;
     width: 900px;
     border: 1px solid #ccc;
-    background-color:#F3F2ED;
     margin: 0px 0px 10px 0px;
     padding: 10px;
 }
 
 /*footer*/
-
+.footer {
+    box-sizing: border-box;
+}
 footer {
-    background-color: #131515;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 100%;
     text-align: left;
     font: normal 16px sans-serif;
-    height: 230px;
-    padding-left: 40px;
+    height: 300px;
     bottom: 0;
     position: relative;
 }
@@ -192,5 +190,47 @@ footer .footer-logo {
     padding-top: 60px;
 }
 footer p.footer-text {
+}
+.footer-row {
+    float: left;
+    height: 300px;
+}
+.footer-main:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.footer-left {
+    width: 29%;
+    margin-top: 15px;
+    border-right:1px solid black ;
+    height: 270px;
 
 }
+.footer-right {
+    width: 30%;
+}
+.footer-middle {
+    width: 40%;
+}
+.footer-left {
+    background: #131515;
+    text-align: right;
+    padding-right: 10px;
+
+}
+.footer-right {
+    background: #131515;
+}
+.footer-middle {
+    background: #131515;
+}
+.footer-main {
+    background: #131515;
+}
+.footer-text {
+    width: 70%;
+    padding-left: 25%;
+}
+
+
