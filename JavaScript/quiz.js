@@ -48,6 +48,7 @@ function generateQuestion() {
         console.log(correctQuestionsArray.length);
         results.innerHTML += "</div>";
         get("quiz").innerHTML = "Test Completed";
+        c="a";
         pos = 0;
         correct = 0;
         return false;
@@ -110,6 +111,7 @@ function timer001() {
         }
         results.innerHTML += "</div>";
         get("quiz").innerHTML = "Test Completed";
+        c="a";
         pos = 0;
         correct = 0;
         return false;

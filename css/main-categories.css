@@ -9,20 +9,19 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 .bestseller-body  {
-  background: url("../images/pallette.png");
+  background: url("../images/pallette.png") no-repeat;
+  background-size: cover;
   font-family: sans-serif;
   margin: 0;
   padding-top: 10vh;
-  height: 100vh;
 }
 .book-type-image img {
   width: 100%;
   height: auto;
 }
 .book-categories {
-  margin-bottom: 5px;
   text-align: center;
-  margin-left: 15%;
+  margin: auto auto 15px auto;
   width: 1000px;
   background: rgba(255, 250, 251, 0.39);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
@@ -32,6 +31,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 15px;
+  margin: auto;
 
 }
 
@@ -76,5 +76,6 @@ img .book-type-image  {
 .book-listing:hover .book-type-image img {
   filter: blur(2px);
 }
+
 
 
