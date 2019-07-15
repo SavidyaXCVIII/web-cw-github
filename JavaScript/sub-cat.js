@@ -40,6 +40,6 @@ function txtWhite() {
     document.body.style.color = "white";
 }
 function txtBlue() {
-    document.body.style.color = "#22253c";
+    document.body.style.color = "#23a89b";
 }
 
