@@ -1,3 +1,4 @@
+
 .heading {
     font-size: 50px;
     font-weight: bolder;
@@ -50,11 +51,12 @@ button:hover {
 text {
     font-size: 100px;
 }
-p {
+#main p{
     margin: 0;
     font-size: 1.1vw;
     font-family: 'montserratregular', sans-serif;
     font-weight: normal;
+    color: #000;
 }
 #results {
 }
@@ -64,10 +66,15 @@ p {
     padding: 10px;
     border-radius: 3px;
 }
-h2 {
+.text {
+     color: #000;
+
+ }
+.heading, #quiz {
     font-family: 'montserrat_semiboldregular', sans-serif;
     font-weight: 800;
     font-size: xx-large;
+    color: #000;
 }
 h3 {
     font-family: 'montserrat_semiboldregular', sans-serif;

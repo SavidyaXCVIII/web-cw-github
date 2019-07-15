@@ -45,9 +45,9 @@ function generateQuestion() {
         for (var i in correctQuestionsArray){
             results.innerHTML += correctQuestionsArray[i] + "<br><br>";
         }
+        console.log(correctQuestionsArray.length);
         results.innerHTML += "</div>";
         get("quiz").innerHTML = "Test Completed";
-        hideTimer();
         pos = 0;
         correct = 0;
         return false;
@@ -78,8 +78,10 @@ function checkAnswer(correctQuestion) {
     if (choice == Questions[pos][5]) {
         correct++;
         marks += 2;
-        console.log(correctQuestion);
         correctQuestionsArray.push(correctQuestion);
+        if (correctQuestionsArray.length > 10){
+            document.getElementById("main").style.cssText = "background: #22253c";
+        }
 
     }
     else {
@@ -113,9 +115,6 @@ function timer001() {
         return false;
     }
 }
-function hideTimer(){
-    document.getElementsByClassName("timer").style.cssText = "display: none;";
-}
 update = setInterval("timer001()", 1000);
 
 
@@ -138,4 +137,5 @@ function changeBackgroundColor() {
     }
 
     setInterval(changeColor,1000);
+
 }
