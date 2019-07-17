@@ -17,11 +17,12 @@ p,li{
     background-color:#ffffff;
 }
 .right {
-    width: 35%;
-    background-color:#d3f9ec;
+     width: 35%;
+     background-color:#d3f9ec;
 
 
-}
+ }
+
 
 .row:after {
     content: "";
@@ -53,6 +54,7 @@ p,li{
     width: 30px;
 
 }
+
 .headings{
     background-color:#d3f9ec ;
     height: 60px;
