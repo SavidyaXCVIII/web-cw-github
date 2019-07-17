@@ -45,6 +45,7 @@ function generateQuestion() {
         for (var i in correctQuestionsArray){
             results.innerHTML += correctQuestionsArray[i] + "<br><br>";
         }
+        console.log(correctQuestionsArray.length);
         results.innerHTML += "</div>";
         get("quiz").innerHTML = "Test Completed";
         c="a";

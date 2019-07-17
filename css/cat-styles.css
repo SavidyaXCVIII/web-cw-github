@@ -136,18 +136,21 @@ body{
     text-align: justify;
     font-family: montserratbold , sans-serif;
     font-size: 1.6vw;
+    color: #fff;
 }
 .row-author td {
     padding-bottom: 10px;
     text-align: justify;
     font-family: montserrat_semiboldregular , sans-serif;
     font-size: 1.1vw;
+    color: #fff;
 }
 .row-about td {
     padding-bottom: 5px;
     text-align: justify;
     font-family: 'montserrat_lightregular', sans-serif;
     font-size: 1vw;
+    color: #fff;
 }
 .details-column td {
 
@@ -171,7 +174,7 @@ body{
 
 /*drop down*/
 .dropbtn {
-    background-color: #22253c;
+    background-color: #46494c;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -185,8 +188,12 @@ body{
     display: inline-block;
     height: 20%;
 }
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
 .content-right{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .dropdown-content {
@@ -217,8 +224,6 @@ body{
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #000000;
-}
+
 
 
