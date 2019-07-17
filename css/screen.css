@@ -145,7 +145,7 @@ div .container {
     font-size: 25px;
     font-weight: 700;
     background-color: #fffafb;
-    margin-right: 400px;
+
 
 }
 div .main-container {
@@ -194,6 +194,7 @@ div .book_2_info,.book_4_info{
     text-align: left;
     float: right;
     padding: 30px;
+    font-weight: bold;
 }
 
 .sub-container-01 {
