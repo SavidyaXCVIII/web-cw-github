@@ -1,9 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
+
 }
 
 
 /*header*/
+.header img {
+    height: 60px;
+    top: 90vh;
+    left: 50vw;
+    position: relative;
+}
 .nav-space {
 
 }
@@ -59,6 +69,15 @@ text #line-two {
     text-align: center;
     color: #fffafb;
 
+}
+.before-images {
+    height: 100px;
+    padding: 20px 10px 10px 10px ;
+    text-align: center;
+}
+.before-images text {
+    font-family: montserrat_mediumregular, sans-serif;
+    font-size: 50px;
 }
 
 /*images*/
