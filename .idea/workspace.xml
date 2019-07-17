@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64019b09-c94d-4502-a65e-6d7d5d80fa51" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/CV-Shelomi/CV.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/CV-Shelomi/Shelomi_CV.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/CV-Shelomi/address.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/CV-Shelomi/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/CV-Shelomi/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/CV-Shelomi/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/CV-Shelomi/pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/Categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/presentation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/presentation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Action.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Action.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Children.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Children.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Fiction.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Fiction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Horror.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Horror.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-category/Mystry.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Mystry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-category/Mystery.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Mystery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-category/Romance.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Romance.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,37 +35,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sub-category/Mystry.html">
+        <entry file="file://$PROJECT_DIR$/sub-category/Romance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="279" column="42" selection-start-line="279" selection-start-column="42" selection-end-line="279" selection-end-column="42" />
+            <state relative-caret-position="6657">
+              <caret line="317" column="39" selection-start-line="317" selection-start-column="39" selection-end-line="317" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sub-category/Action.html">
+        <entry file="file://$PROJECT_DIR$/sub-category/Mystery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="279" column="44" selection-start-line="279" selection-start-column="44" selection-end-line="279" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sub-category/Children.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="284" column="44" selection-start-line="284" selection-start-column="44" selection-end-line="284" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="280" column="44" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
+            <state relative-caret-position="6720">
+              <caret line="320" column="39" selection-start-line="320" selection-start-column="39" selection-end-line="320" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -59,17 +55,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sub-category/Horror.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="274" column="44" selection-start-line="274" selection-start-column="44" selection-end-line="274" selection-end-column="44" />
+            <state relative-caret-position="6636">
+              <caret line="316" column="39" selection-start-line="316" selection-start-column="39" selection-end-line="316" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6762">
+              <caret line="322" column="39" selection-start-line="322" selection-start-column="39" selection-end-line="322" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sub-category/Children.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6846">
+              <caret line="326" column="39" selection-start-line="326" selection-start-column="39" selection-end-line="326" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sub-category/Action.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6762">
+              <caret line="322" column="39" selection-start-line="322" selection-start-column="39" selection-end-line="322" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CV/Shelomi_CV.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21">
+              <caret line="110" column="49" lean-forward="true" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sub-category/Romance.html">
+        <entry file="file://$PROJECT_DIR$/CV/css/shelomi.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="275" column="42" selection-start-line="275" selection-start-column="42" selection-end-line="275" selection-end-column="42" />
+            <state relative-caret-position="469">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CV/css/savidya.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CV/Savidya_CV.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1995">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -90,6 +140,11 @@
         <option value="$PROJECT_DIR$/sub-category/Fiction.html" />
         <option value="$PROJECT_DIR$/sub-category/Horror.html" />
         <option value="$PROJECT_DIR$/sub-category/Romance.html" />
+        <option value="$PROJECT_DIR$/CV/CV.css" />
+        <option value="$PROJECT_DIR$/CV/Shelomi_CV.html" />
+        <option value="$PROJECT_DIR$/CV/Savidya_CV.html" />
+        <option value="$PROJECT_DIR$/CV/css/savidya.css" />
+        <option value="$PROJECT_DIR$/CV/css/shelomi.css" />
       </list>
     </option>
   </component>
@@ -101,20 +156,25 @@
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/web-cw-github-repo.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="807" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="872" />
+    <option name="y" value="10" />
     <option name="width" value="975" />
-    <option name="height" value="1028" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +190,22 @@
             <path>
               <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="CV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="CV" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -137,25 +213,11 @@
               <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
               <item name="sub-category" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="sub-category" type="462c0819:PsiDirectoryNode" />
-              <item name="cat-images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="sub-category" type="462c0819:PsiDirectoryNode" />
-              <item name="cat-images" type="462c0819:PsiDirectoryNode" />
-              <item name="Action" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,17 +249,18 @@
       <updated>1562860907722</updated>
       <workItem from="1562860909335" duration="1771000" />
       <workItem from="1562864175589" duration="4041000" />
+      <workItem from="1563380476921" duration="2563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26963000" />
+    <option name="totallyTimeSpent" value="29945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10067114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -226,6 +289,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -247,62 +340,102 @@
     <entry file="file://$PROJECT_DIR$/JavaScript/sub-cat.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Categories.html">
+    <entry file="file://$PROJECT_DIR$/sub-category/Mystry.html" />
+    <entry file="file://$USER_HOME$/Desktop/shelomi/2 nd Sem/Web design/GROUP COURSEWORK/Sitemap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1687">
-          <caret line="104" column="66" selection-start-line="104" selection-start-column="66" selection-end-line="104" selection-end-column="66" />
-          <folding>
-            <element signature="e#3985#3991#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1869">
+          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="132" column="34" lean-forward="true" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
+        <state relative-caret-position="4284">
+          <caret line="204" column="22" selection-start-line="204" selection-start-column="22" selection-end-line="204" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Mystry.html">
+    <entry file="file://$PROJECT_DIR$/Categories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="279" column="42" selection-start-line="279" selection-start-column="42" selection-end-line="279" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Action.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="279" column="44" selection-start-line="279" selection-start-column="44" selection-end-line="279" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Children.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="284" column="44" selection-start-line="284" selection-start-column="44" selection-end-line="284" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="280" column="44" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sub-category/Horror.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="274" column="44" selection-start-line="274" selection-start-column="44" selection-end-line="274" selection-end-column="44" />
+        <state relative-caret-position="2499">
+          <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sub-category/Romance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="275" column="42" selection-start-line="275" selection-start-column="42" selection-end-line="275" selection-end-column="42" />
+        <state relative-caret-position="6657">
+          <caret line="317" column="39" selection-start-line="317" selection-start-column="39" selection-end-line="317" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Mystery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6720">
+          <caret line="320" column="39" selection-start-line="320" selection-start-column="39" selection-end-line="320" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Horror.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6636">
+          <caret line="316" column="39" selection-start-line="316" selection-start-column="39" selection-end-line="316" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Fiction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6762">
+          <caret line="322" column="39" selection-start-line="322" selection-start-column="39" selection-end-line="322" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Children.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6846">
+          <caret line="326" column="39" selection-start-line="326" selection-start-column="39" selection-end-line="326" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-category/Action.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6762">
+          <caret line="322" column="39" selection-start-line="322" selection-start-column="39" selection-end-line="322" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV/CV.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV/Savidya_CV.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1995">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV/css/savidya.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV/Shelomi_CV.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="110" column="49" lean-forward="true" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV/css/shelomi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>

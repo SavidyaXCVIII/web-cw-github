@@ -68,7 +68,7 @@ body{
 }
 
 .pre-title h1:nth-child(2) {
-    width: 1.3em;
+    width: 2.5em;
     opacity: 0;
     -webkit-animation: type2 0.5s steps(40, end),blink .4s step-end infinite alternate;
     animation: type2 0.5s steps(40, end),blink .4s step-end infinite alternate;
