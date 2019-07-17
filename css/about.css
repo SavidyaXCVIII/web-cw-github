@@ -31,18 +31,36 @@ body {
 
 
 }
+/*middle text*/
 #middle-text {
     background: #22253c;
-    height: 500px;
+    height: 350px;
+    padding: 60px;
 }
 #middle-text text {
-    font-family: montserrat_semiboldregular, sans-serif;
     color: #fff;
     z-index: 3;
-    font-size: 60px;
     text-align: center;
     position: relative;
 }
+text #line-one {
+    font-family: montserrat_semiboldregular, sans-serif;
+    font-size: 50px;
+    width: 55%;
+    color: #fff;
+
+}
+text #line-two {
+    font-family: montserrat_thinregular, sans-serif;
+    font-size: 30px;
+    width: 60%;
+    font-weight: 700;
+    margin: auto;
+    text-align: left;
+    color: #fffafb;
+
+}
+
 /*images*/
 
 .container .box {
@@ -63,6 +81,9 @@ body {
 }
 
 /*Hover Details*/
+.box-cell {
+    font-family: montserrat_thinregular, sans-serif;
+}
 .container-1 .box {
     width: 800px;
     margin: 0 auto;
