@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+
+/*header*/
+.nav-space {
+
+}
+.header {
+    background: url("../images/adult-architecture-building-1040493.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.lg-about {
+    z-index: 3;
+}
+text{
+    font-family: montserrat_semiboldregular, sans-serif;
+    color: #fff;
+    z-index: 3;
+    font-size: 60px;
+    top: 60%;
+    left : 50%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background: #23a89b;
+    padding: 10px;
+
+
+}
+.heading {
+
+}
+
+
+/*footer*/
+.footer {
+
+}
