@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Sitemap</title>
-<link rel="stylesheet" type="text/css" href="css/Sitemap.css">
+    <meta charset="UTF-8">
+    <title>Sitemap</title>
+    <!--    global styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/global-styles.css" type="text/css">
+    <!--    web-font-kit-css-->
+    <link rel="stylesheet" href="fonts/WebFontKit/stylesheet.css" type="text/css">
+    <!--    local styles-->
+    <link rel="stylesheet" type="text/css" href="css/Sitemap.css">
+
+
 </head>
 
 <body class="siteMap">
-    <h1>The Book Hub Sitemap</h1>
 
-    <svg id="custom-shape" viewBox="0 0 175 175">
-
+<h1>The Book Hub Sitemap</h1>
+<svg id="custom-shape" viewBox="0 0 175 175">
+<g>
 <!--    home button-->
     <rect class="home" x="70" y="5"  rx="1" ry="1" width="10" height="5"></rect>
     <text class="text" x="72" y="8" >HOME</text>
@@ -79,14 +88,12 @@
     <rect class="page-content" x="100" y="27.5"  rx="1" ry="1" width="15" height="5"></rect>
     <text class="text" x="101.5" y="30.5" >Author names</text>
     <line class="line" x1="107.5" y1="23" x2="107.5" y2="27.5"></line>
-
-        <line class="line" x1="107.5" y1="32.5" x2="107.5" y2="73"></line>
+    <line class="line" x1="107.5" y1="32.5" x2="107.5" y2="73"></line>
 
     <text class="text" x="134" y="30" >List of Products</text>
     <rect class="page-content" x="132.5" y="27"  rx="1" ry="1" width="15" height="5"></rect>
     <line class="line" x1="140" y1="23" x2="140" y2="27"></line>
-
-        <text class="text" x="136" y="39" >Clear Cart</text>
+    <text class="text" x="136" y="39" >Clear Cart</text>
         <rect class="page-content" x="132.5" y="36"  rx="1" ry="1" width="15" height="5"></rect>
         <line class="line" x1="140" y1="32" x2="140" y2="36"></line>
 
@@ -136,8 +143,45 @@
         <rect class="content" x="10" y="110" rx="1" ry="1" width="16" height="7"></rect>
         <text class="legend" x="30" y="115" >Page Content</text>
 
-
+</g>
 </svg>
+
+    <footer class="footer sub-cat" >
+        <div class="footer-main">
+            <div class="footer-row footer-left">
+                <div class="footer-text">
+                    <h1>&copy; The Book Hub</h1>
+                    <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
+                    <p>Our goal is to help those who supply </br> it and share it with those who crave it.</p>
+                </div>
+            </div>
+            <div class="footer-row footer-middle">
+                <h2>About Us</h2>
+                <div class="footer-right-line"></div>
+                <p>Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown
+                    printer took a galley of type and
+                    scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="footer-row footer-middle-right">
+                <div><button class="button"><a href="#">Site Map</a></button></div>
+                <div><button class="button"><a href="CV/Shelomi_CV.html"  >Editor - CV</a></button></div>
+            </div>
+            <div class="footer-row footer-right">
+                <h2>Stay Connected</h2>
+                <div class="footer-right-line"></div>
+                <div class="links">
+                    <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+                </div>
+                <div><button class="button">Have Feedback ?</button></div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
