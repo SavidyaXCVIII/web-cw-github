@@ -310,6 +310,9 @@ footer p.footer-text {
     -moz-border-radius: 20px;
     border-radius: 20px;
 }
+.button a{
+    text-decoration: none;
+}
 .button:hover {
     color: #ffffff;
     border:1px solid #ffffff;

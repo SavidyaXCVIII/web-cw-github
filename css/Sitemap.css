@@ -1,29 +1,28 @@
 body{
 	background: url("../images/sitemap-img.jpeg") no-repeat ;
-
 	background-size: cover;
 
 }
 #custom-shape{
-outline:10px solid gray;
+	outline:10px solid gray;
 }
 h1{
-text-align:center;
+	text-align:center;
 
 }
 .demo{
-Stroke-width:0.5;
-stroke:black;
+	Stroke-width:0.5;
+	stroke:black;
 }
 .text{
-fill: #22253c;
-font-size:2px;
+	fill: #22253c;
+	font-size:2px;
 
 }
 .content{
-fill:none;
-stroke:#23a89b;
-stroke-width:0.5px;
+	fill:none;
+	stroke:#23a89b;
+	stroke-width:0.5px;
 }
 
 .main-page{
