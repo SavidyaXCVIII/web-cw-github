@@ -32,19 +32,20 @@ nav ul li a {
     font-weight: bold;
     color: #ffffff;
 }
+
 nav ul li a.active {
-    background-color: #23a89b;
-    color: #fff;
+    background-color: #A2E3C4;
+    color: #000000;
     border-radius: 4px;
 }
 
 nav ul li a:hover {
-    background: #23a89b;
-    color: #fff;
+    background: #A2E3C4;
+    color: #000000;
     border-radius: 4px;
 }
 nav ul li a:hover:not (.active){
-    background: #23a89b;
+    background: #A2E3C4;
     color: #fff;
 }
 nav ul li ul {
