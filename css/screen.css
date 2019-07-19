@@ -5,7 +5,7 @@ html {
 
 /*button*/
 /*buy-books-now-btn*/
-a.btn {
+.btn {
     background-color: #22253c;
     font-size: 1vw;
     text-decoration: none;
@@ -20,9 +20,9 @@ a.btn {
 
 
 }
-a.btn:hover {
+.btn:hover {
     color: #000;
-    background-color: #23a89b;
+    background-color: #A2E3C4;
 }
 
 /*scroll-down-btn*/
@@ -138,12 +138,11 @@ div .container {
 }
 .right-column {
     padding: 5px;
+    color: #ffffff;
 }
 /*other*/
 .container_heading{
     text-align: center;
-    font-size: 25px;
-    font-weight: 700;
     background-color: #fffafb;
 
 
@@ -219,7 +218,7 @@ div .book_2_info,.book_4_info{
 
 }
 .sub-container-02 {
-    background: #23a89b;
+    background: #A2E3C4;
     height: 300px;
 
 }
@@ -255,7 +254,7 @@ div .book_2_info,.book_4_info{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .sub-container-04 {
-    background: #23a89b;
+    background: #A2E3C4;
     height: 300px;
 
 }
