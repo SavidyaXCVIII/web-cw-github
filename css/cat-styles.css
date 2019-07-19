@@ -114,6 +114,13 @@ body{
 .shopping-cart {
    width: 50px;
 }
+
+.section{
+    width: 600px;
+    padding: 50px;
+    margin: auto;
+}
+
 /*description div*/
 .details-column img {
     border: solid 1px white;
