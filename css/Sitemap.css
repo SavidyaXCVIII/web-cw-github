@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background: url("../images/sitemap-img.jpeg") no-repeat;
+	background: url("../images/sitemap-img.jpg") no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 
@@ -23,6 +23,7 @@ body{
 }
 h1{
 	text-align:center;
+	color: white;
 
 }
 .demo{
@@ -32,22 +33,20 @@ h1{
 .text{
 	fill: #22253c;
 	font-size:2px;
+	stroke-width: 1px;
 
 }
 .content{
-	fill:none;
 	stroke:#23a89b;
 	stroke-width:0.5px;
 }
 
 .main-page{
-	fill:none;
 	stroke:#22253c;
 	stroke-width:0.5px;
 	
 }
 .page-content{
-	fill:none;
 	stroke:	#808080;
 	stroke-width:0.5px;
 	
@@ -56,9 +55,11 @@ h1{
 	stroke:black;
 	stroke-width:0.2px;
 }
+rect{
+	fill: white;
+}
 
 .home{
-	fill:none;
 	stroke:#2b2c28;
 	stroke-width:0.5px;
 	
