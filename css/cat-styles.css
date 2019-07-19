@@ -180,6 +180,7 @@ body{
 
 /*drop down*/
 .dropbtn {
+    font-family: montserrat_semiboldregular, sans-serif;
     background-color: #46494c;
     color: white;
     padding: 16px;
@@ -203,6 +204,7 @@ body{
 }
 
 .dropdown-content {
+    font-family: montserrat_semiboldregular, sans-serif;
     display: none;
     position: absolute;
     background-color: #22253c;

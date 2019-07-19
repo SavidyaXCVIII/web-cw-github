@@ -1,12 +1,16 @@
 body{
 	margin: 0;
-	background: url("../images/sitemap-img.jpeg") no-repeat;
+	background: url("../images/sitemap-img.jpg") no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+
+
 
 }
 .sitemap-main {
 	margin-right: 10px;
+	height: 1000px;
+	overflow: hidden;
 }
 .header-sitemap {
 	padding-top: 30px;
@@ -15,14 +19,15 @@ body{
 	margin: auto;
 	width: 100%;
 	height: 80px;
-
 }
 
 #custom-shape{
 
 }
 h1{
+	font-family: montserrat_semiboldregular, sans-serif;
 	text-align:center;
+	color: white;
 
 }
 .demo{
@@ -31,23 +36,22 @@ h1{
 }
 .text{
 	fill: #22253c;
-	font-size:2px;
+	font-size:1.8px;
+	stroke-width: 1px;
+	font-family: montserrat_semiboldregular, sans-serif;
 
 }
 .content{
-	fill:none;
 	stroke:#23a89b;
 	stroke-width:0.5px;
 }
 
 .main-page{
-	fill:none;
 	stroke:#22253c;
 	stroke-width:0.5px;
 	
 }
 .page-content{
-	fill:none;
 	stroke:	#808080;
 	stroke-width:0.5px;
 	
@@ -56,15 +60,18 @@ h1{
 	stroke:black;
 	stroke-width:0.2px;
 }
+rect{
+	fill: white;
+}
 
 .home{
-	fill:none;
 	stroke:#2b2c28;
 	stroke-width:0.5px;
 	
 }
 .legend{
 	font-size: 3px;
+	font-family: montserrat_semiboldregular, sans-serif;
 
 }
 .legend rect{

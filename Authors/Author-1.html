@@ -2,48 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quiz</title>
-<!--    global styles-->
+    <title>Action</title>
+    <!--    global styles-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/global-styles.css" type="text/css">
-<!--    web-font-kit-css-->
-    <link rel="stylesheet" href="fonts/WebFontKit/stylesheet.css" type="text/css">
-<!--    local styles-->
-    <link rel="stylesheet" href="css/quiz-styles.css" type="text/css">
-    <script src="JavaScript/quiz.js">  </script>
+    <link rel="stylesheet" href="../css/global-styles.css" type="text/css">
+    <!--    web-font-kit-css-->
+    <link rel="stylesheet" href="../fonts/WebFontKit/stylesheet.css" type="text/css">
+    <!--    local styles-->
+    <link rel="stylesheet" href="../css/cat-styles.css" type="text/css">
+
 </head>
 <body>
 
-<div class="content-wrapper" id="main">
-<header>
-    <div class="global-overlay">
+<header id="header">
+    <div>
         <a class="logo" title="livre" href="#index"><span>Livre Le Magasin</span></a>
         <a class="nav-space" href=""></a>
         <nav>
             <ul>
                 <li>
-                    <a class="active" title="home" href="home-page.html">Home</a>
+                    <a class="active" title="home" href="../home-page.html">Home</a>
                 </li>
                 <li>
-                    <a title="Books" href="Categories.html">Categories</a>
+                    <a title="Books" href="../Categories.html">Categories</a>
                     <ul>
                         <li>
-                            <a title="sublink-1" href="sub-category/Mystery.html">Mystery, Thriller & Suspense</a>
+                            <a title="sublink-1" href="Mystery.html">Mystery, Thriller & Suspense</a>
                         </li>
                         <li>
-                            <a title="sublink-2" href="sub-category/Fiction.html">Fiction & Fantasy</a>
+                            <a title="sublink-2" href="../sub-category/Fiction.html">Fiction & Fantasy</a>
                         </li>
                         <li>
-                            <a title="sublink-3" href="sub-category/Horror.html">Horror</a>
+                            <a title="sublink-3" href="../sub-category/Horror.html">Horror</a>
                         </li>
                         <li>
-                            <a title="sublink-3" href="sub-category/Action.html">Action</a>
+                            <a title="sublink-3" href="../sub-category/Action.html">Action</a>
                         </li>
                         <li>
-                            <a title="sublink-3" href="sub-category/Children.html">Children</a>
+                            <a title="sublink-3" href="../sub-category/Children.html">Children</a>
                         </li>
                         <li>
-                            <a title="sublink-3" href="sub-category/Romance.html">Romance</a>
+                            <a title="sublink-3" href="../sub-category/Romance.html">Romance</a>
                         </li>
                     </ul>
                 </li>
@@ -51,35 +50,22 @@
                     <a title="checkout" href="#">Checkout</a>
                 </li>
                 <li>
-                    <a title="quiz" href="quiz.html">Quiz</a>
+                    <a title="quiz" href="../quiz.html">Quiz</a>
                 </li>
                 <li>
                     <a title="feedback" href="#">Feedback</a>
                 </li>
                 <li>
-                    <a title="sitemap" href="about.html">About</a>
+                    <a title="about" href="../about.html">About</a>
                 </li>
             </ul>
         </nav>
     </div>
 
 </header>
-<div class="timer"><text id="time001"></text></div>
-<div id="main-modal" class="modal display-modal">
-    <div class="modal-content">
-        <h2 class="heading">Books & Authors</h2>
-        <button onclick="hideModal(); changeBackgroundColor();" class="start">Start Quiz</button>
-        <h2 class="text">You have 100 seconds to complete.</h2>
-    </div>
-</div>
-<div class="quiz-container">
-    <h2 id="quiz" class="blur-01">
-    </h2>
-    <div id="results" class="blur-02"></div>
-    <div id="marks"></div>
-</div>
-</div>
-<footer class="footer" >
+
+
+<footer class="footer sub-cat" >
     <div class="footer-main">
         <div class="footer-row footer-left">
             <div class="footer-text">
@@ -96,8 +82,8 @@
                 We’re looking forward to opening up 2 local shops , and use our website to help our business to grow.</p>
         </div>
         <div class="footer-row footer-middle-right">
-            <div><button class="button"><a href="#">Site Map</a></button></div>
-            <div><button class="button"><a href="CV/Savidya_CV.html">Editor - CV</a></button></div>
+            <div><a href="../Sitemap.html"><button class="button">Site Map</button></a></div>
+            <div><a href="#"><button class="button">Editor - CV</button></a></div>
         </div>
         <div class="footer-row footer-right">
             <h2>Stay Connected</h2>
