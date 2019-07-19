@@ -159,6 +159,15 @@ div .wrapper {
     padding: 10px;
     height: auto;
 }
+#content h2{
+    font-family: montserrat_semiboldregular, sans-serif;
+    color: black;
+    font-size: 55px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
 #footer {
     color: #333;
     width: 900px;
