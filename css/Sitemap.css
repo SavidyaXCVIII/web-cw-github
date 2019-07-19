@@ -4,9 +4,13 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 
+
+
 }
 .sitemap-main {
 	margin-right: 10px;
+	height: 1000px;
+	overflow: hidden;
 }
 .header-sitemap {
 	padding-top: 30px;
