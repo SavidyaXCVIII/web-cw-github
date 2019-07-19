@@ -76,13 +76,22 @@ function checkAnswer(correctQuestion) {
             choice = choices[i].value;
         }
     }
-    if (choice == Questions[pos][5]) {
+    if (choice === Questions[pos][5]) {
         correct++;
         marks += 2;
         correctQuestionsArray.push(correctQuestion);
-        if (correctQuestionsArray.length > 10){
-            document.getElementById("main").style.cssText = "background: #22253c";
+        if (correctQuestionsArray.length >9 ){
+            document.getElementById("main").style.cssText = "background: #845EC2";
+        }else if (correctQuestionsArray.length > 5 ){
+            document.getElementById("main").style.cssText = "background: #D65DB1";
         }
+        else if (correctQuestionsArray.length > 3 ){
+            document.getElementById("main").style.cssText = "background: #FF6F91";
+        }
+        else if (correctQuestionsArray.length > 1){
+            document.getElementById("main").style.cssText = "background: #FF9671";
+        }
+
 
     }
     else {
@@ -140,4 +149,6 @@ function changeBackgroundColor() {
 
     setInterval(changeColor,1000);
 
+
 }
+
