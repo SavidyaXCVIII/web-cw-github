@@ -218,98 +218,108 @@
     <section class="products">
         <div class="product-card">
             <div class="product-image" >
-                <a href="#des"><img onclick="toggleVisibility('Menu1')" src="cat-images/Romance/romance-book-1.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu1')" src="cat-images/Romance/romance-book-1.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
                 <div class="add-to-cart">
-                    <text class="price">$8.3</text>
-                    <button  type="button" class="btn btn-default">
-                        Add to Cart
-                    </button>
-
+                    <h2 class="product__name">The Coice</h2>
+                    <text class="product__price">8.30</text>
                 </div>
             </div>
+            <button  type="button" class="btn btn-default" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu2')" src="cat-images/Romance/romance-book-2.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu2')" src="cat-images/Romance/romance-book-2.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
 
                 <div class="add-to-cart">
-                    <text class="price">$8</text>
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">From Lukov With Love</h2>
+                    <text class="product__price">8.00</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu3')" src="cat-images/Romance/romance-book-3.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu3')" src="cat-images/Romance/romance-book-3.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
 
                 <div class="add-to-cart">
-                    <text class="price">$7.8</text>
-
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">The Longest Ride</h2>
+                    <text class="product__price">7.80</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu4')" src="cat-images/Romance/romance-book-4.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu4')" src="cat-images/Romance/romance-book-4.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
 
                 <div class="add-to-cart">
-                    <text class="price">$7.2</text>
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">Roomies</h2>
+                    <text class="product__price">7.20</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu5')" src="cat-images/Romance/romance-book-5.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu5')" src="cat-images/Romance/romance-book-5.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
 
                 <div class="add-to-cart">
-                    <text class="price">$6.8</text>
-
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">Safe Haven</h2>
+                    <text class="product__price">6.80</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu6')" src="cat-images/Romance/romance-book-6.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu6')" src="cat-images/Romance/romance-book-6.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
                 <div class="add-to-cart">
-                    <text class="price">$8</text>
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">A Walk To Remember</h2>
+                    <text class="product__price">8.00</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
 
     </section>
 </div>
+
+<section class="section">
+    <h2 class="text-center">Cart</h2>
+    <div class="cart"></div>
+</section>
+<!--   cart java script-->
+<script src="../JavaScript/cart.js">  </script>
 
 <footer class="footer sub-cat" >
     <div class="footer-main">
