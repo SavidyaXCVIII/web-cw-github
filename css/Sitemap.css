@@ -1,0 +1,60 @@
+body{
+	background: url("../images/sitemap-img.jpeg") no-repeat ;
+	background-size: cover;
+
+}
+#custom-shape{
+	outline:10px solid gray;
+}
+h1{
+	text-align:center;
+
+}
+.demo{
+	Stroke-width:0.5;
+	stroke:black;
+}
+.text{
+	fill: #22253c;
+	font-size:2px;
+
+}
+.content{
+	fill:none;
+	stroke:#23a89b;
+	stroke-width:0.5px;
+}
+
+.main-page{
+	fill:none;
+	stroke:#22253c;
+	stroke-width:0.5px;
+	
+}
+.page-content{
+	fill:none;
+	stroke:	#808080;
+	stroke-width:0.5px;
+	
+}
+.line{
+	stroke:black;
+	stroke-width:0.2px;
+}
+
+.home{
+	fill:none;
+	stroke:#2b2c28;
+	stroke-width:0.5px;
+	
+}
+.legend{
+	font-size: 3px;
+
+}
+.legend rect{
+	fill: none;
+	stroke: black;
+	stroke-width:0.2px;
+
+}
