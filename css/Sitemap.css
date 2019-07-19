@@ -15,13 +15,13 @@ body{
 	margin: auto;
 	width: 100%;
 	height: 80px;
-
 }
 
 #custom-shape{
 
 }
 h1{
+	font-family: montserrat_semiboldregular, sans-serif;
 	text-align:center;
 	color: white;
 
@@ -32,8 +32,9 @@ h1{
 }
 .text{
 	fill: #22253c;
-	font-size:2px;
+	font-size:1.8px;
 	stroke-width: 1px;
+	font-family: montserrat_semiboldregular, sans-serif;
 
 }
 .content{
@@ -66,6 +67,7 @@ rect{
 }
 .legend{
 	font-size: 3px;
+	font-family: montserrat_semiboldregular, sans-serif;
 
 }
 .legend rect{
