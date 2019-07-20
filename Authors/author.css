@@ -3,11 +3,6 @@ html, body, section {
     height: 100%;
 }
 
-.main {
-
-
-}
-
 .left-half {
     display: flex;
     justify-content: center;
@@ -34,6 +29,17 @@ html, body, section {
     margin-right: 200px
 
 }
+.books{
+    padding-top: 20px;
+    color: #000;
+    text-align: left;
+    margin-left: 50px;
+    margin-top:20px ;
+    font-size: 20px;
+
+
+}
+
 .right-half ul{
     color: black;
     text-align: left;
