@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64019b09-c94d-4502-a65e-6d7d5d80fa51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Authors/Author-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Authors/Author-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authors/Author-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Authors/Author-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/author-global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/author-global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/global-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authors/author.css" beforeDir="false" afterPath="$PROJECT_DIR$/Authors/author.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,19 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Authors/Author-1.html">
+        <entry file="file://$PROJECT_DIR$/home-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+            <state relative-caret-position="582">
+              <caret line="233" column="62" selection-start-line="233" selection-start-column="62" selection-end-line="233" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/author-global.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Authors/Author-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="1743">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
@@ -39,17 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Authors/Author-2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="97" column="12" lean-forward="true" selection-start-line="97" selection-start-column="12" selection-end-line="100" selection-end-column="41" />
+            <state relative-caret-position="2289">
+              <caret line="109" column="8" lean-forward="true" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Authors/author.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="42">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -80,6 +77,7 @@
         <option value="$PROJECT_DIR$/sub-category/Children.html" />
         <option value="$PROJECT_DIR$/sub-category/Romance.html" />
         <option value="$PROJECT_DIR$/sub-category/Horror.html" />
+        <option value="$PROJECT_DIR$/Authors/author.css" />
       </list>
     </option>
   </component>
@@ -207,7 +205,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31004000" />
+    <option name="totallyTimeSpent" value="31008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -338,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="225" column="56" lean-forward="true" selection-start-line="225" selection-start-column="56" selection-end-line="225" selection-end-column="56" />
+        <state relative-caret-position="582">
+          <caret line="233" column="62" selection-start-line="233" selection-start-column="62" selection-end-line="233" selection-end-column="62" />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,6 @@ html, body{
 }
 
 .left-half {
-    display: flex;
     justify-content: center;
     width: 50%;
 }
