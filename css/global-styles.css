@@ -32,19 +32,20 @@ nav ul li a {
     font-weight: bold;
     color: #ffffff;
 }
+
 nav ul li a.active {
-    background-color: #23a89b;
-    color: #fff;
+    background-color: #A2E3C4;
+    color: #000000;
     border-radius: 4px;
 }
 
 nav ul li a:hover {
-    background: #23a89b;
-    color: #fff;
+    background: #A2E3C4;
+    color: #000000;
     border-radius: 4px;
 }
 nav ul li a:hover:not (.active){
-    background: #23a89b;
+    background: #A2E3C4;
     color: #fff;
 }
 nav ul li ul {
@@ -66,6 +67,7 @@ nav ul li:hover ul {
 }
 nav ul li ul li a {
     padding: 10px;
+    text-align: left;
 }
 header a.logo {
     position: absolute;
@@ -158,6 +160,15 @@ div .wrapper {
     margin: auto;
     padding: 10px;
     height: auto;
+}
+#content h2{
+    font-family: montserrat_semiboldregular, sans-serif;
+    color: black;
+    font-size: 55px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
 }
 #footer {
     color: #333;
@@ -309,6 +320,9 @@ footer p.footer-text {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
+}
+.button a{
+    text-decoration: none;
 }
 .button:hover {
     color: #ffffff;

@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	background: url("../images/sitemap-img.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+
+}
+.sitemap-main {
+	margin-right: 10px;
+	height: 1000px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.header-sitemap {
+	padding-top: 30px;
+	padding-left: 20px;
+	display: inline-block;
+	background: #22253c;
+	margin: auto;
+	width: 100%;
+	height: 80px;
+}
+.header-sitemap p{
+	color: white;
+	width: 500px;
+	margin-left: 400px;
+}
+
+#custom-shape{
+
+}
+h1{
+	font-family: montserrat_semiboldregular, sans-serif;
+	text-align:center;
+	color: white;
+
+}
+.demo{
+	Stroke-width:0.3;
+	stroke:black;
+}
+.text{
+	fill: white;
+	font-size:1.8px;
+	stroke-width: 1px;
+	font-family: montserrat_semiboldregular, sans-serif;
+
+}
+.content{
+	stroke: #A2E3C4;
+	stroke-width:0.5px;
+}
+
+.main-page{
+	stroke:white;
+	stroke-width:0.5px;
+	
+}
+.page-content{
+	stroke: #333333;
+	stroke-width:0.5px;
+	
+}
+.line{
+	stroke:black;
+	stroke-width:0.2px;
+}
+rect{
+	fill: #22253c;
+	opacity: 0.9;
+}
+.main-page rect{
+	fill: #333333;
+}
+.home{
+	stroke:#2b2c28;
+	stroke-width:0.5px;
+	
+}
+.legend{
+	font-size: 3px;
+	font-family: montserrat_semiboldregular, sans-serif;
+
+}
+.legend rect{
+	fill: white;
+	stroke: white;
+	stroke-width:0.2px;
+
+}

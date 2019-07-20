@@ -21,10 +21,10 @@
         <nav>
             <ul>
                 <li>
-                    <a class="active" title="home" href="../home-page.html">Home</a>
+                    <a title="home" href="../home-page.html">Home</a>
                 </li>
                 <li>
-                    <a title="Books" href="../Categories.html">Categories</a>
+                    <a class="active" title="Books" href="../Categories.html">Categories</a>
                     <ul>
                         <li>
                             <a title="sublink-1" href="Mystery.html">Mystery, Thriller & Suspense</a>
@@ -42,7 +42,7 @@
                             <a title="sublink-3" href="../sub-category/Children.html">Children</a>
                         </li>
                         <li>
-                            <a title="sublink-3" href="../sub-category/Romance.html">Romance</a>
+                            <a class="active" title="sublink-3" href="../sub-category/Romance.html">Romance</a>
                         </li>
                     </ul>
                 </li>
@@ -53,10 +53,25 @@
                     <a title="quiz" href="../quiz.html">Quiz</a>
                 </li>
                 <li>
-                    <a title="feedback" href="#">Feedback</a>
+                    <a title="authors" href="#">Authors</a>
+                    <ul>
+                        <li>
+                            <a title="author-1" href="../Authors/Author-1.html">Nicholas Sparks</a>
+                        </li>
+                        <li>
+                            <a title="author-2" href="../Authors/Author-2.html">John Green</a>
+                        </li>
+                        <li>
+                            <a title="author-3" href="../Authors/Author-3.html">Stephenie meyer</a>
+                        </li>
+                        <li>
+                            <a title="author-4" href="../Authors/Author-4.html">Suzanne Collins</a>
+                        </li>
+
+                    </ul>
                 </li>
                 <li>
-                    <a title="sitemap" href="#">Site Map</a>
+                    <a title="about" href="../about.html">About</a>
                 </li>
             </ul>
         </nav>
@@ -70,7 +85,8 @@
             <div class="dropdown-content">
                 <a onclick="bgBlack()">Black</a>
                 <a onclick="bgWhite()">White</a>
-                <a onclick="bgBlue()">Blue</a>
+                <a onclick="bgDarkBlue()">Dark Blue</a>
+                <a onclick="bgLightBlue()">Light Blue</a>
             </div>
         </div>
     </div>
@@ -80,7 +96,8 @@
             <div class="dropdown-content">
                 <a onclick="txtBlack()">Black</a>
                 <a onclick="txtWhite()">White</a>
-                <a onclick="txtBlue()">Blue</a>
+                <a onclick="txtDarkBlue()">Blue</a>
+                <a onclick="txtLightBlue()">Light Blue</a>
             </div>
         </div>
     </div>
@@ -89,6 +106,7 @@
 
 <div id="content">
     <div class="main_div">
+        <h2>romance</h2>
         <div class="inner_div" id="des">
             <div class="details-main" id="Menu1">
                 <div class="details-column left">
@@ -216,104 +234,114 @@
     <section class="products">
         <div class="product-card">
             <div class="product-image" >
-                <a href="#des"><img onclick="toggleVisibility('Menu1')" src="cat-images/Romance/romance-book-1.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu1')" src="cat-images/Romance/romance-book-1.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
                 <div class="add-to-cart">
-                    <text class="price">$8.3</text>
-                    <button  type="button" class="btn btn-default">
-                        Add to Cart
-                    </button>
-
+                    <h2 class="product__name">The Coice</h2>
+                    <text class="product__price">8.30</text>
                 </div>
             </div>
+            <button  type="button" class="btn btn-default" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu2')" src="cat-images/Romance/romance-book-2.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu2')" src="cat-images/Romance/romance-book-2.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
 
                 <div class="add-to-cart">
-                    <text class="price">$8</text>
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">From Lukov With Love</h2>
+                    <text class="product__price">8.00</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu3')" src="cat-images/Romance/romance-book-3.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu3')" src="cat-images/Romance/romance-book-3.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
 
                 <div class="add-to-cart">
-                    <text class="price">$7.8</text>
-
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">The Longest Ride</h2>
+                    <text class="product__price">7.80</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu4')" src="cat-images/Romance/romance-book-4.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu4')" src="cat-images/Romance/romance-book-4.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
 
                 <div class="add-to-cart">
-                    <text class="price">$7.2</text>
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">Roomies</h2>
+                    <text class="product__price">7.20</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu5')" src="cat-images/Romance/romance-book-5.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu5')" src="cat-images/Romance/romance-book-5.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
 
                 <div class="add-to-cart">
-                    <text class="price">$6.8</text>
-
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">Safe Haven</h2>
+                    <text class="product__price">6.80</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
         <div class="product-card">
             <div class="product-image">
-                <a href="#des"><img onclick="toggleVisibility('Menu6')" src="cat-images/Romance/romance-book-6.jpg"></a>
+                <a href="#des"><img onclick="toggleVisibility('Menu6')" src="cat-images/Romance/romance-book-6.jpg" class="product__image"></a>
             </div>
             <div class="product-info">
                 <div class="add-to-cart">
-                    <text class="price">$8</text>
-                    <button type="button" class="btn btn-default" onclick="showHideDiv()">
-                        Add to Cart
-                    </button>
+                    <h2 class="product__name">A Walk To Remember</h2>
+                    <text class="product__price">8.00</text>
                 </div>
             </div>
+            <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                Add to Cart
+            </button>
         </div>
 
 
     </section>
 </div>
 
+<section class="section">
+    <h2 class="text-center">Cart</h2>
+    <div class="cart"></div>
+</section>
+<!--   cart java script-->
+<script src="../JavaScript/cart.js">  </script>
+
 <footer class="footer sub-cat" >
     <div class="footer-main">
         <div class="footer-row footer-left">
             <div class="footer-text">
-                <h1>&copy; The Book Store</h1>
+                <h1>&copy; The Book Hub</h1>
                 <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
                 <p>Our goal is to help those who supply </br> it and share it with those who crave it.</p>
             </div>
@@ -321,16 +349,13 @@
         <div class="footer-row footer-middle">
             <h2>About Us</h2>
             <div class="footer-right-line"></div>
-            <p>Lorem Ipsum is simply dummy text of the
-                printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown
-                printer took a galley of type and
-                scrambled it to make a type specimen book.</p>
+            <p>We are the book hub team and we've been selling books online since 2012.
+                We believe in only delivering  books from the best authors in the world to our customers at a fair deal of a price.
+                We’re looking forward to opening up 2 local shops , and use our website to help our business to grow.</p>
         </div>
         <div class="footer-row footer-middle-right">
-            <div><button class="button">Site Map</button></div>
-            <div><button class="button">Editor - CV</button></div>
+            <div><a href="../Sitemap.html"><button class="button">Site Map</button></a></div>
+            <div><a href="../CV/Shelomi_CV.html"><button class="button">Editor - CV</button></a></div>
         </div>
         <div class="footer-row footer-right">
             <h2>Stay Connected</h2>
