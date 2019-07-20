@@ -67,6 +67,7 @@ nav ul li:hover ul {
 }
 nav ul li ul li a {
     padding: 10px;
+    text-align: left;
 }
 header a.logo {
     position: absolute;

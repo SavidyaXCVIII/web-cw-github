@@ -1,0 +1,79 @@
+/* Pen-specific styles */
+html, body, section {
+    height: 100%;
+}
+
+.main {
+
+
+}
+
+.left-half {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.bio {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.left-half p{
+    font-size: 60px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+.right-half p{
+    color: #000;
+    text-align: left;
+    margin-top:120px ;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 200px
+
+}
+.right-half ul{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 200px;
+
+}
+
+article h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.container {
+    display: flex;
+    color: #fff;
+    font-family:montserrat_semiboldregular, sans-serif;
+    line-height: 150%;
+    text-align: center;
+    background-color: #A2E3C4;
+    padding-left: 200px;
+}
+
+.left-half {
+    flex: 1;
+    padding: 1rem;
+}
+
+.right-half {
+    flex: 1;
+    padding: 1rem;
+}
+
+hr{
+    height: 2px;
+    border: 0;
+    color: #333;
+    background-color: #333;
+    width: 100%;
+    margin-bottom: 40px;
+}

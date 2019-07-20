@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64019b09-c94d-4502-a65e-6d7d5d80fa51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/Categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sitemap.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sitemap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Sitemap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Sitemap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authors/Author-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Authors/Author-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authors/Author-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Authors/Author-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/author-global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/author-global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/global-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-category/Action.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Action.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-category/Children.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Children.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-category/Fiction.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Fiction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-category/Horror.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Horror.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-category/Mystery.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Mystery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-category/Romance.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-category/Romance.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sub-category/Horror.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Authors/Author-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="333" column="68" selection-start-line="333" selection-start-column="68" selection-end-line="333" selection-end-column="68" />
+            <state relative-caret-position="490">
+              <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/author-global.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Authors/Author-2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="97" column="12" lean-forward="true" selection-start-line="97" selection-start-column="12" selection-end-line="100" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Authors/author.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -108,6 +126,11 @@
             <path>
               <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="Authors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -125,6 +148,12 @@
               <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-cw-github-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="web-font-kit-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-cw-github-repo" type="b2602c69:ProjectViewProjectNode" />
@@ -178,13 +207,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31001000" />
+    <option name="totallyTimeSpent" value="31004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16845638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
