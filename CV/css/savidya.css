@@ -1,12 +1,97 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*p,li{*/
+/*    font-size: 20px;*/
+/*}*/
+/*.top-row{*/
+/*    height: 40px;*/
+/*    background-color: #484848;*/
+/*}*/
+/*.column {*/
+/*    float: left;*/
+/*    padding: 10px;*/
+/*}*/
+/*.left {*/
+/*    width: 65%;*/
+/*    background-color:#ffffff;*/
+/*}*/
+
+/*.right {*/
+/*    width: 35%;*/
+/*    background-color: #803e73;*/
+
+/*}*/
+
+/*.row:after {*/
+/*    content: "";*/
+/*    display: table;*/
+/*    clear: both;*/
+/*}*/
+/*.my-pic{*/
+/*    margin-top: 20px;*/
+/*    margin-left: 160px;*/
+/*    width:200px;*/
+/*    border-radius: 50%;*/
+/*}*/
+/*.name{*/
+/*    padding: 25px 40px 75px ;*/
+
+/*}*/
+/*.name p{*/
+/*    font-size: 20px;*/
+/*}*/
+
+
+/*.square {*/
+/*    height: 6px;*/
+/*    width: 70px;*/
+/*    background-color: #22253c;*/
+
+/*}*/
+/*.about{*/
+/*}*/
+/*.about img {*/
+/*    height:30px;*/
+/*    width: 30px;*/
+
+/*}*/
+/*.headings{*/
+/*    background-color:#803e73 ;*/
+/*    height: 60px;*/
+/*    width: 100%;*/
+/*}*/
+/*.headings p{*/
+/*    font-weight: bolder;*/
+/*    font-size: 35px;*/
+/*    padding-left: 30px;*/
+/*    padding-top: 10px;*/
+/*}*/
+/*.content{*/
+/*    padding: 30px;*/
+
+/*}*/
+/*.name{*/
+/*    height: 1400px;*/
+
+/*}*/
+
 * {
     box-sizing: border-box;
+    font-family: montserrat_semiboldregular, sans-serif;
 }
 p,li{
     font-size: 20px;
 }
 .top-row{
-    height: 40px;
+    height: 90px;
     background-color: #484848;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.top-row h1{
+    padding: 15px;
 }
 .column {
     float: left;
@@ -16,12 +101,11 @@ p,li{
     width: 65%;
     background-color:#ffffff;
 }
-
 .right {
     width: 35%;
-    background-color: #803e73;
-
+    background-color:#803e73;
 }
+
 
 .row:after {
     content: "";
@@ -36,18 +120,15 @@ p,li{
 }
 .name{
     padding: 25px 40px 75px ;
-
 }
 .name p{
     font-size: 20px;
 }
 
-
 .square {
     height: 6px;
     width: 70px;
-    background-color: #22253c;
-
+    background-color: #484848;
 }
 .about{
 }
@@ -56,6 +137,7 @@ p,li{
     width: 30px;
 
 }
+
 .headings{
     background-color:#803e73 ;
     height: 60px;
@@ -72,6 +154,32 @@ p,li{
 
 }
 .name{
-    height: 1400px;
+    height: 2200px;
 
+}
+.hyperlink{
+    background-color: #555;
+    font-family: 'ubuntubold', sans-serif;
+}
+.hyperlink ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-radius: 5px;
+}
+.hyperlink ul li {
+    list-style: none;
+    margin: auto;
+}
+.hyperlink ul li a {
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hyperlink ul li a:hover {
+    color:#000000 ;
+    border-radius: 4px;
 }
