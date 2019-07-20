@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title> FeedBack</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/global-styles.css" type="text/css">
+
+</head>
+<body>
+<header id="header">
+    <div>
+        <a class="logo" title="livre" href="#index"><span>Livre Le Magasin</span></a>
+        <a class="nav-space" href=""></a>
+        <nav>
+            <ul>
+                <li>
+                    <a class="active" title="home" href="../home-page.html">Home</a>
+                </li>
+                <li>
+                    <a title="checkout" href="#">Checkout</a>
+                </li>
+                <li>
+                    <a title="quiz" href="../quiz.html">Quiz</a>
+                </li>
+                <li>
+                    <a title="feedback" href="#">Feedback</a>
+                </li>
+                <li>
+                    <a title="sitemap" href="#">Site Map</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="left-side">
+    <div class="content-left">
+        <div class="dropdown">
+            <button class="dropbtn">Change background color</button>
+            <div class="dropdown-content">
+                <a onclick="bgBlack()">Black</a>
+                <a onclick="bgWhite()">White</a>
+                <a onclick="bgBlue()">Blue</a>
+            </div>
+        </div>
+    </div>
+    <div class="content-right">
+        <div class="dropdown">
+            <button class="dropbtn">Change text color</button>
+            <div class="dropdown-content">
+                <a onclick="txtBlack()">Black</a>
+                <a onclick="txtWhite()">White</a>
+                <a onclick="txtBlue()">Blue</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container">
+    <form id="feedback" action="" method="post" onsubmit="return validateForm()"  >
+        <h3> FeedBack Form</h3>
+        <fieldset>
+            <input type="text" id="fname" name="firstname" placeholder= "First Name">
+        </fieldset>
+        <fieldset>
+            <input type="text" id="lname" name="lastname" placeholder= "Last Name">
+        </fieldset>
+        <fieldset>
+            <input type="text" id="email" name="email" placeholder="Email Address">
+        </fieldset>
+        <fieldset>
+            <input type="tel" id="number" name="phone number" placeholder="Phone Number(optional)">
+        </fieldset>
+        <fieldset>
+            <textarea id="feed" name="feedback" placeholder="Your Feedback"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="Rate our Website">Rate our Website</label>
+            <select id="Rate Our Website" name="Rate Our Website" >
+                <option>Very Good</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Need to Improve a lot</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</div>
+<footer class="footer sub-cat" >
+    <div class="footer-main">
+        <div class="footer-row footer-left">
+            <div class="footer-text">
+                <h1>&copy; The Book Store</h1>
+                <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
+                <p>Our goal is to help those who supply </br> it and share it with those who crave it.</p>
+            </div>
+        </div>
+        <div class="footer-row footer-middle">
+            <h2>About Us</h2>
+            <div class="footer-right-line"></div>
+            <p>Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown
+                printer took a galley of type and
+                scrambled it to make a type specimen book.</p>
+        </div>
+        <div class="footer-row footer-middle-right">
+            <div><button class="button">Site Map</button></div>
+            <div><button class="button">Editor - CV</button></div>
+        </div>
+        <div class="footer-row footer-right">
+            <h2>Stay Connected</h2>
+            <div class="footer-right-line"></div>
+            <div class="links">
+                <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+            </div>
+            <div><button class="button">Have Feedback ?</button></div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
