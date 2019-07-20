@@ -9,6 +9,7 @@ html, body{
     width: 50%;
 }
 .bio {
+    display: flex;
     justify-content: center;
     width: 50%;
 }
@@ -53,6 +54,7 @@ article h1 {
 
 /* Pattern styles */
 .container {
+    display: flex;
     color: #fff;
     font-family:montserrat_semiboldregular, sans-serif;
     line-height: 150%;
@@ -64,10 +66,12 @@ article h1 {
 }
 
 .left-half {
+    flex: 1;
     padding: 1rem;
 }
 
 .right-half {
+    flex: 1;
     padding: 1rem;
     background-color: #46494c;
     height: 489px;
