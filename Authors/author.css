@@ -1,6 +1,7 @@
 /* Pen-specific styles */
-html, body, section {
+html, body{
     height: 100%;
+    background-color: #A2E3C4;
 }
 
 .left-half {
@@ -20,18 +21,17 @@ html, body, section {
     margin-top: 50px;
     margin-bottom: auto;
 }
+
 .right-half p{
-    color: #000;
+    color: #fff;
     text-align: left;
-    margin-top:120px ;
     font-size: 20px;
     margin-left: 50px;
-    margin-right: 200px
+    margin-right: 50px
 
 }
 .books{
     padding-top: 20px;
-    color: #000;
     text-align: left;
     margin-left: 50px;
     margin-top:20px ;
@@ -41,7 +41,6 @@ html, body, section {
 }
 
 .right-half ul{
-    color: black;
     text-align: left;
     font-size: 20px;
     margin-left: 50px;
@@ -62,7 +61,9 @@ article h1 {
     line-height: 150%;
     text-align: center;
     background-color: #A2E3C4;
-    padding-left: 200px;
+    margin-top: 50px;
+    padding-left: 100px;
+    margin-bottom: 150px;
 }
 
 .left-half {
@@ -73,6 +74,10 @@ article h1 {
 .right-half {
     flex: 1;
     padding: 1rem;
+    background-color: #46494c;
+    height: 489px;
+    margin-top: 140px;
+    margin-right: 100px;
 }
 
 hr{
