@@ -1,6 +1,5 @@
 /* Pen-specific styles */
 html, body{
-    height: 100%;
     background-color: #A2E3C4;
 }
 
@@ -14,20 +13,32 @@ html, body{
     justify-content: center;
     width: 50%;
 }
+.left-half img {
+    margin-top: 10px;
+    width: 480px;
+
+}
 
 .left-half p{
     font-size: 60px;
-    color: black;
+    color: #ffffff;
     margin-top: 50px;
     margin-bottom: auto;
+    width: 500px;
+}
+.image-div {
+    background: #46494c;
+    padding-bottom: 60px;
+    height: 440px;
+
 }
 
 .right-half p{
     color: #fff;
     text-align: left;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px
+    font-size: 1em;
+    padding: 30px 15px 0 15px;
+
 
 }
 .books{
@@ -42,15 +53,13 @@ html, body{
 
 .right-half ul{
     text-align: left;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-right: 200px;
-
+    font-size: 1em;
+    margin-left: 0;
 }
 
 article h1 {
     font-size: 1.75rem;
-    margin: 0 0 0.75rem 0;
+
 }
 
 /* Pattern styles */
@@ -60,31 +69,33 @@ article h1 {
     font-family:montserrat_semiboldregular, sans-serif;
     line-height: 150%;
     text-align: center;
-    background-color: #A2E3C4;
-    margin-top: 50px;
-    padding-left: 100px;
-    margin-bottom: 150px;
+    background-color: #7c7a7a;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.70), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+
 }
 
 .left-half {
     flex: 1;
-    padding: 1rem;
+    width: 500px;
+    margin: 0 5px 50px 0;
 }
 
 .right-half {
     flex: 1;
-    padding: 1rem;
     background-color: #46494c;
-    height: 489px;
-    margin-top: 140px;
-    margin-right: 100px;
+    height: 500px;
+    margin-top: 124px;
+    width: 390px;
 }
 
 hr{
     height: 2px;
     border: 0;
-    color: #333;
-    background-color: #333;
+    color: #ffffff;
+    background-color: #ffffff;
     width: 100%;
     margin-bottom: 40px;
 }
