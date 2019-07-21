@@ -2,7 +2,7 @@ var pos = 0;
 var correct = 0;
 var marks = 0;
 var time = 0;
-var results, quiz, question, choice, choices, chA, chB, chC, chD, duration;
+var results, quiz, question, choice, choices, AnswerA, AnswerB, AnswerC, AnswerD, duration;
 var correctQuestionsArray = [];
 
 
@@ -21,9 +21,9 @@ var Questions = [
 
 ];
 
-function get(x) {
-    return document.getElementById(x);
-}
+    function get(x) {
+        return document.getElementById(x);
+    }
 
 
 function hideModal() {
@@ -56,16 +56,16 @@ function generateQuestion() {
 
     get("quiz").innerHTML = "Question " + (pos + 1) + " of " + Questions.length;
     question = Questions[pos][0];
-    chA = Questions[pos][1];
-    chB = Questions[pos][2];
-    chC = Questions[pos][3];
-    chD = Questions[pos][4];
+    AnswerA = Questions[pos][1];
+    AnswerB = Questions[pos][2];
+    AnswerC = Questions[pos][3];
+    AnswerD = Questions[pos][4];
 
     results.innerHTML = "<h3>" + question + "</h3>";
-    results.innerHTML += "<p><input type='radio' name='choices' value='A' checked='checked'> " + chA + "</p><br>";
-    results.innerHTML += "<p><input type='radio' name='choices' value='B'> " + chB + "</p><br>";
-    results.innerHTML += "<p><input type='radio' name='choices' value='C'> " + chC + "</p><br>";
-    results.innerHTML += "<p><input type='radio' name='choices' value='D'> " + chD + "</p><br>";
+    results.innerHTML += "<p><input type='radio' name='choices' value='A' checked='checked'> " + AnswerA + "</p><br>";
+    results.innerHTML += "<p><input type='radio' name='choices' value='B'> " + AnswerB + "</p><br>";
+    results.innerHTML += "<p><input type='radio' name='choices' value='C'> " + AnswerC + "</p><br>";
+    results.innerHTML += "<p><input type='radio' name='choices' value='D'> " + AnswerD + "</p><br>";
     results.innerHTML += "<button onclick='checkAnswer(question)'>Submit Answer</button>";
 
 }

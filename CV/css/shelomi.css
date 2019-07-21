@@ -1,12 +1,19 @@
 * {
     box-sizing: border-box;
+    font-family: montserrat_semiboldregular, sans-serif;
 }
 p,li{
     font-size: 20px;
 }
 .top-row{
-    height: 40px;
+    height: 90px;
     background-color: #484848;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.top-row h1{
+    padding: 15px;
 }
 .column {
     float: left;
@@ -19,8 +26,6 @@ p,li{
 .right {
      width: 35%;
      background-color:#d3f9ec;
-
-
  }
 
 
@@ -45,7 +50,7 @@ p,li{
 .square {
     height: 6px;
     width: 70px;
-    background-color: #555;
+    background-color: #484848;
 }
 .about{
 }
@@ -71,6 +76,32 @@ p,li{
 
 }
 .name{
-    height: 2000px;
+    height: 2200px;
 
+}
+.hyperlink{
+    background-color: #555;
+    font-family: 'ubuntubold', sans-serif;
+}
+.hyperlink ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-radius: 5px;
+}
+.hyperlink ul li {
+    list-style: none;
+    margin: auto;
+}
+.hyperlink ul li a {
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hyperlink ul li a:hover {
+    color: #A2E3C4;
+    border-radius: 4px;
 }
