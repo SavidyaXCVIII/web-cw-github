@@ -1,0 +1,100 @@
+/* Pen-specific styles */
+html, body{
+    background-color: #A2E3C4;
+}
+
+.left-half {
+    justify-content: center;
+    width: 50%;
+}
+.bio {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.left-half img {
+    margin-top: 10px;
+    width: 480px;
+
+}
+
+.left-half p{
+    font-size: 57px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: auto;
+    width: 500px;
+}
+.image-div {
+    background: #46494c;
+    padding-bottom: 60px;
+    height: 440px;
+
+}
+
+.right-half p{
+    color: #fff;
+    text-align: left;
+    font-size: 1em;
+    padding: 30px 15px 0 15px;
+
+
+}
+.books{
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top:20px ;
+    font-size: 20px;
+
+
+}
+
+.right-half ul{
+    text-align: left;
+    font-size: 1em;
+    margin-left: 0;
+}
+
+article h1 {
+    font-size: 1.75rem;
+
+}
+
+/* Pattern styles */
+.container {
+    display: flex;
+    color: #fff;
+    font-family:montserrat_semiboldregular, sans-serif;
+    line-height: 150%;
+    text-align: center;
+    background-color: #7c7a7a;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.70), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+
+}
+
+.left-half {
+    flex: 1;
+    width: 500px;
+    margin: 0 5px 50px 0;
+}
+
+.right-half {
+    flex: 1;
+    background-color: #46494c;
+    height: 500px;
+    margin-top: 124px;
+    width: 390px;
+}
+
+hr{
+    height: 2px;
+    border: 0;
+    color: #ffffff;
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 40px;
+}

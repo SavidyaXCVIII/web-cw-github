@@ -1,7 +1,6 @@
 body{
     margin: 0;
     background: #A2E3C4;
-    color: #fff;
 }
 #timerColor {
     width: 200px;
@@ -24,7 +23,7 @@ body{
     border: solid 1px;
     margin: 10px;
     display: flex;
-    color: #A2E3C4;
+    color: #22253c;
     flex-direction: column;
     padding-top: 2%;
     flex: 1 16%;
@@ -40,10 +39,9 @@ body{
 }
 
 .product-info {
-    margin-top: auto;
     text-align: center;
     background: #22253c;
-    border-radius: 5px;
+    height: 30px;
 }
 #hideShow{
     transition-duration: 0.4s;
@@ -72,16 +70,19 @@ body{
     margin: 5px;
     border-radius: 5px;
 }
-.product__price {
-    color: black;
-    padding: 10px;
-    margin-left: 35%;
-    //margin: 1rem auto;
+/*.product__price {*/
+/*    color: black;*/
+/*    padding: 10px;*/
+/*    margin-left: 35%;*/
+/*    //margin: 1rem auto;*/
 
 
-}
 .product__name{
     display: none;
+}
+.product__price {
+    text-align: center;
+    margin: auto;
 }
 
 .btn-default{
@@ -90,26 +91,24 @@ body{
     color: #fff;
     background-color: #A2E3C4;
     text-transform: uppercase;
-    margin: 10px 10px 10px 40px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
 }
 .btn {
     background-color: #22253c;
     max-width: 150px;
     color: #fff;
     border: 0;
-    padding: 5px;
     cursor: pointer;
     border-radius: 25px;
-    //margin: 10px;
     font-size: 1vw;
+
 }
 .btn:hover {
     background-color: #A2E3C4;
     color: #000000;
     /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
     transition: 0.5s;
-    margin: 5px;
-    padding: 10px;
 
 }
 .shopping-cart {
@@ -119,9 +118,7 @@ body{
 .section{
     width: 600px;
     padding: 50px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 50px auto 20px auto ;
     background: rgba(241, 241, 241, 0.75);
 }
 
@@ -263,23 +260,14 @@ body{
 
 @media screen and (min-width: 600px) {
     :root {
-        --base-padding: 12px;
         font-size: 14px;
     }
 }
 
 @media screen and (min-width: 1000px) {
     :root {
-        --base-padding: 20px;
         font-size: 16px;
     }
-}
-
-body {
-    margin: 0;
-    min-width: var(--min-width);
-    color: var(--color-black);
-    font-family: var(--base-font-family);
 }
 
 /* ----------------- Layout ----------------- */
@@ -337,10 +325,16 @@ button {
     cursor: not-allowed;
 }
 
-/*.btn {
+
+.btn {
     padding: .65rem 1rem;
 
-}*/
+}
+
+.btn {
+    transition: .3s all;
+}
+
 
 .btn--small {
     padding: .2rem .4rem;
