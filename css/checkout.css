@@ -1,6 +1,6 @@
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
 
 /*body{
     background-image: url("bground.jpg");
@@ -11,7 +11,7 @@
     border-radius: 5px;
     margin: 50px 10px 30px 70px;
     padding: 30px;
-    width: 85% ;
+    width: 80% ;
     background: rgba(0, 0, 0, 0.3);
 }
 .row:after {
@@ -20,10 +20,10 @@
     clear: both;
 }
 label{
-    padding: 12px 12px 12px 0;
+    padding: 12px 5px 12px 0;
     display: inline-block;
     float: left;
-    width: 25%;
+    width: 20%;
     margin-top: 8px;
     color: white;
 }
@@ -51,6 +51,18 @@ input[type=number] {
 span{
     margin: 15px 5px 1px 30px;
     position: absolute;
+}
+
+.section{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: left;
+    margin-top: 20px;
+    height: 300px;
+    background-color: rgba(238, 242, 242, 0.93);
 }
 
 textarea {
