@@ -48,6 +48,9 @@ h1{
 	font-family: montserrat_semiboldregular, sans-serif;
 
 }
+text:hover{
+
+}
 .content{
 	stroke: #A2E3C4;
 	stroke-width:0.5px;
@@ -70,6 +73,12 @@ h1{
 rect{
 	fill: #22253c;
 	opacity: 0.9;
+}
+g rect:hover {
+	fill: #A2E3C4;
+}
+rect:hover text{
+	fill: #A2E3C4;
 }
 .main-page rect{
 	fill: #333333;
