@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="fonts/WebFontKit/stylesheet.css" type="text/css">
     <!--    local styles-->
     <link rel="stylesheet" href="css/cat-styles.css" type="text/css">
+    <link rel="stylesheet" href="css/checkout.css" type="text/css">
+
+
 </head>
 <body>
 
@@ -46,13 +49,31 @@
                     </ul>
                 </li>
                 <li>
-                    <a title="checkout" href="#">Checkout</a>
+                    <a title="checkout" href="checkout.html">Checkout</a>
                 </li>
                 <li>
                     <a title="quiz" href="quiz.html">Quiz</a>
                 </li>
                 <li>
                     <a title="feedback" href="#">Feedback</a>
+                </li>
+                <li>
+                    <a title="authors" href="#">Authors</a>
+                    <ul>
+                        <li>
+                            <a title="author-1" href="Authors/Author-1.html">Nicholas Sparks</a>
+                        </li>
+                        <li>
+                            <a title="author-2" href="Authors/Author-1.html">John Green</a>
+                        </li>
+                        <li>
+                            <a title="author-3" href="Authors/Author-1.html">Stepenie Meyer</a>
+                        </li>
+                        <li>
+                            <a title="author-4" href="Authors/Author-1.html">Suzanne Collins</a>
+                        </li>
+
+                    </ul>
                 </li>
                 <li>
                     <a title="about" href="about.html">About</a>
@@ -63,13 +84,25 @@
 
 </header>
 
-<section class="section">
-    <h2 class="text-center">Your Cart</h2>
-    <div class="cart"></div>
-</section>
-<!--   cart java script-->
-<script src="JavaScript/cart.js">  </script>
+<div class="container">
+    <script src="JavaScript/checkout-form.js">  </script>
+    <form name="f1" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validate()">
 
+            <div class=row">
+                <label>Name:</label>
+                <input type="text" name="name"/>
+                <span id="namelocation" style="color:red"></span>
+            </div>
+            <div class=row">
+                <label>Password:</label>
+                <input type="text" name="password"/>
+                <span id="passwordlocation" style="color:red"></span>
+            </div>
+            <input type="submit" value="register"/>
+
+    </form>
+
+</div>
 
 <footer class="footer sub-cat" >
     <div class="footer-main">
@@ -103,8 +136,11 @@
             <div><button class="button">Have Feedback ?</button></div>
         </div>
     </div>
+
+
 </footer>
 <script src="JavaScript/sub-cat.js">  </script>
+
 
 </body>
 </html>
