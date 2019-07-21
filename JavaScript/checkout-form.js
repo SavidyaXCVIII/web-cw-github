@@ -1,6 +1,7 @@
 function validateForm() {
     var first = document.forms["myForm"]["fname"].value;
     var last = document.forms["myForm"]["lname"].value;
+    var address = document.forms["myForm"]["address"].value;
     var x=document.forms["myForm"]["e-mail"].value;
     var atposition=x.indexOf("@");
     var dotposition=x.lastIndexOf(".");
@@ -22,6 +23,14 @@ function validateForm() {
         document.getElementById("lnamelocation").innerHTML="";
         status=true;
     }
+    //address validation//
+    if (address == "") {
+        document.getElementById("address_location").innerHTML="Please enter your address !";
+        status=false;
+    }else{
+        document.getElementById("address_location").innerHTML="";
+        status=true;
+    }
     //email validation
     if (x == "") {
         document.getElementById("email_location").innerHTML = "Please enter your Email !";
@@ -31,7 +40,7 @@ function validateForm() {
         status= false;
     }else{
         document.getElementById("email_location").innerHTML = "";
-        
+
     }
     return status;
 }
