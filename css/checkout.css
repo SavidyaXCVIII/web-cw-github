@@ -11,7 +11,7 @@
     border-radius: 5px;
     margin: 50px 10px 30px 70px;
     padding: 30px;
-    width: 80% ;
+    width: 85% ;
     background: rgba(0, 0, 0, 0.3);
 }
 .row:after {
@@ -47,15 +47,12 @@ input[type=number] {
     margin-left: 10px;
     background-color: #EEFEFC;
 }
-input[type=datetime-local] {
-    width: 30%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    float: left;
-    margin-top: 8px;
-    background-color: #EEFEFC;
+
+span{
+    margin: 15px 5px 1px 30px;
+    position: absolute;
 }
+
 textarea {
     width: 60%;
     padding: 12px;
@@ -80,29 +77,8 @@ select {
 .first_num input {
     margin-top: 12px;
 }
-.room select, label{
-    margin-top:3px;
-}
-.guest_num input {
-    margin-left: 0px;
-    margin-top: 8px;
-    width: 12%;
-}
-.checkbox_val input {
-    margin-top: 50px;
-    width: 3%;
-}
-.check_label label {
-    margin-left: 0px;
-    padding: 0px;
-    margin-right: 60px;
-    width: 40%;
-    margin-top: 50px;
-    color: white;
-    float:left;
-    display: inline-block;
-}
-button[type=submit] {
+
+input[type=submit] {
     background-color: #429B37;
     color: white;
     border: none;
@@ -115,10 +91,10 @@ button[type=submit] {
     margin-left: 30%;
     cursor: pointer;
 }
-button[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #0E5506;
 }
-button[type=reset] {
+input[type=reset] {
     background-color: #EA3D35;
     color: white;
     border: none;
@@ -131,6 +107,6 @@ button[type=reset] {
     margin-left: 30%;
     cursor: pointer;
 }
-button[type=reset]:hover {
+input[type=reset]:hover {
     background-color: #B8130A;
 }
