@@ -52,10 +52,8 @@ text {
 }
 #main p{
     margin: 0;
-    font-size: 1.1vw;
     font-family: 'montserratregular', sans-serif;
     font-weight: normal;
-    color: #000;
 }
 #results {
 }
