@@ -135,7 +135,7 @@ function addCartFooter() {
     cartDOM.insertAdjacentHTML('afterend', `
       <div class="cart-footer">
         <button class="btn btn--danger" data-action="CLEAR_CART">Clear Cart</button>
-        <button class="btn btn--primary" data-action="CHECKOUT">Pay</button>
+        <a href='../sub-category/checkout.html'><button class="btn btn--primary" data-action="CHECKOUT">Pay</button></a>
       </div>
     `);
 
@@ -162,34 +162,7 @@ function clearCart() {
   });
 }
 
-// Using Paypal API, add the paypal form attribute and insert it to the DOM
 
-function checkout() {
-  let paypalFormHTML = `
-    <form id="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_cart">
-      <input type="hidden" name="upload" value="1">
-      <input type="hidden" name="business" value="adrian@webdev.tube">
-  `;
-
-  cart.forEach((cartItem, index) => {
-    ++index;
-    paypalFormHTML += `
-      <input type="hidden" name="item_name_${index}" value="${cartItem.name}">
-      <input type="hidden" name="amount_${index}" value="${cartItem.price}">
-      <input type="hidden" name="quantity_${index}" value="${cartItem.quantity}">
-    `;
-  });
-
-  paypalFormHTML += `
-      <input type="submit" value="PayPal">
-    </form>
-    <div class="overlay"></div>
-  `;
-
-  document.querySelector('body').insertAdjacentHTML('beforeend', paypalFormHTML);
-  document.getElementById('paypal-form').submit();
-}
 
 // Calculate total Payment and render to DOM pay button
 

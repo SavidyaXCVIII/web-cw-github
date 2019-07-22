@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="../fonts/WebFontKit/stylesheet.css" type="text/css">
     <!--    local styles-->
     <link rel="stylesheet" href="author.css" type="text/css">
+    <link rel="stylesheet" href="../css/fontChangeBtn-styles.css" type="text/css" media="screen">
+    <!--    javaScript-->
+    <script src="../JavaScript/font-change.js"></script>
+
 
 </head>
 <body>
@@ -29,7 +33,7 @@
                     <a title="Books" href="../Categories.html">Categories</a>
                     <ul>
                         <li>
-                            <a title="sublink-1" href="Mystery.html">Mystery, Thriller & Suspense</a>
+                            <a title="sublink-1" href="../sub-category/Mystery.html">Mystery, Thriller & Suspense</a>
                         </li>
                         <li>
                             <a title="sublink-2" href="../sub-category/Fiction.html">Fiction & Fantasy</a>
@@ -49,7 +53,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a title="checkout" href="#">Checkout</a>
+                    <a title="checkout" href="../sub-category/checkout.html">Checkout</a>
                 </li>
                 <li>
                     <a title="quiz" href="../quiz.html">Quiz</a>
@@ -80,11 +84,16 @@
                 </li>
             </ul>
         </nav>
+        <div id="font-btn">
+            <button id="input-1" type="button" value="Increase Font Size 5px" onclick="upClick()"></button>
+            <button id="input-2" type="button" value="decrease Font Size 5px" onclick="downClick()"></button>
+        </div>
     </div>
 
 </header>
 
 <body class="main">
+<div id="page">
 <section class="container">
     <div class="left-half">
         <article>
@@ -112,6 +121,7 @@
         </div>
     </div>
 </section>
+</div>
 </body>
 <footer class="footer sub-cat" >
     <div class="footer-main">

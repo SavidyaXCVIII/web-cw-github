@@ -37,16 +37,6 @@ input {
     margin-top: 8px;
     background-color: #EEFEFC;
 }
-input[type=number] {
-    width: 6%;
-    padding: 6px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    float: left;
-    margin-top: 3px;
-    margin-left: 10px;
-    background-color: #EEFEFC;
-}
 
 span{
     margin: 15px 5px 1px 30px;
