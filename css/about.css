@@ -1,11 +1,10 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
-
 }
-
 
 /*header*/
 .header img {
@@ -14,45 +13,46 @@ body {
     left: 50vw;
     position: relative;
 }
-.nav-space {
 
-}
 .header {
     background: url("../images/adult-architecture-building-1040493.jpg") no-repeat;
     background-size: cover;
     height: 100vh;
 
 }
+
 .lg-about {
     z-index: 3;
 }
+
 .header text {
     font-family: montserrat_semiboldregular, sans-serif;
     color: #fff;
     z-index: 3;
     font-size: 60px;
     top: 60%;
-    left : 50%;
+    left: 50%;
     text-align: center;
     position: relative;
     display: inline-block;
     background: #A2E3C4;
     padding: 10px;
-
-
 }
+
 /*middle text*/
 #middle-text {
     background: #22253c;
     height: 350px;
     padding: 60px;
 }
+
 #middle-text text {
     color: #fff;
     z-index: 3;
     text-align: center;
     position: relative;
 }
+
 text #line-one {
     font-family: montserrat_semiboldregular, sans-serif;
     font-size: 45px;
@@ -60,6 +60,7 @@ text #line-one {
     text-align: center;
 
 }
+
 text #line-two {
     font-family: montserrat_thinregular, sans-serif;
     font-size: 30px;
@@ -68,13 +69,14 @@ text #line-two {
     margin: auto;
     text-align: center;
     color: #fffafb;
-
 }
+
 .before-images {
     height: 100px;
-    padding: 20px 10px 10px 10px ;
+    padding: 20px 10px 10px 10px;
     text-align: center;
 }
+
 .before-images text {
     font-family: montserrat_mediumregular, sans-serif;
     font-size: 50px;
@@ -87,11 +89,11 @@ text #line-two {
     margin: -30px auto 0 auto;
     display: table;
 }
-.container .box .box-row{
+
+.container .box .box-row {
     display: table-row;
-
-
 }
+
 .container .box .box-row .box-cell {
     display: table-cell;
     width: 50%;
@@ -103,6 +105,7 @@ text #line-two {
 .box-cell {
     font-family: montserrat_thinregular, sans-serif;
 }
+
 .container-1 .box {
     width: 800px;
     margin: 0 auto;
@@ -110,12 +113,12 @@ text #line-two {
     height: 60px;
     padding: 10px;
     color: white;
-
 }
-.container-1 .box .box-row{
+
+.container-1 .box .box-row {
     display: table-row;
-
 }
+
 .container-1 .box .box-row .box-cell {
     display: table-cell;
     height: 100%;
@@ -124,46 +127,49 @@ text #line-two {
     text-align: center;
     transition: 0.3s;
 }
+
 .image-hover1 {
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
     border-radius: 4px;
 }
+
 .hover-wrapper-1:hover .image-hover1 {
     opacity: 0.8;
 }
+
 .image-hover2 {
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
     border-radius: 4px;
 }
+
 .hover-wrapper-2:hover .image-hover2 {
     opacity: 0.8;
 }
+
 .image-hover3 {
     border-radius: 4px;
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
 }
+
 .hover-wrapper-3:hover .image-hover3 {
     opacity: 0.8;
 
 }
+
 .image-hover4 {
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
     border-radius: 4px;
 }
+
 .hover-wrapper-4:hover .image-hover4 {
     opacity: 0.8;
 }
 
-
-/*footer*/
-.footer {
-
-}

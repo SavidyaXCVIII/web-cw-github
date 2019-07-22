@@ -1,6 +1,5 @@
 
 /*navigation*/
-
 nav {
     position: fixed;
     float: right;
@@ -17,8 +16,6 @@ nav ul {
     display: flex;
     background: #22253c;
     border-radius: 5px;
-
-
 }
 nav ul li {
     list-style: none;

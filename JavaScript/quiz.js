@@ -2,10 +2,10 @@ var pos = 0;
 var correct = 0;
 var marks = 0;
 var time = 0;
-var results, quiz, question, choice, choices, chA, chB, chC, chD, duration;
+var results, quiz, question, choice, choices, AnswerA, AnswerB, AnswerC, AnswerD, duration;
 var correctQuestionsArray = [];
 
-
+// initializing questions
 var Questions = [
     ["Who is the author of this work? <br> &nbsp;Romeo And Juliet","Christopher Marlowe", "Jane Austen", "Lewis Carroll", "William Shakespeare","D"],
     ["Who is the author of this work? <br> &nbsp;The Great Gatsby","Ernest Hemingway", "F. Scott Fitzgerald", "Charles Dickens", "J.D. Salinger","B"],
@@ -20,12 +20,12 @@ var Questions = [
 
 
 ];
+// function to get element from html
+    function get(x) {
+        return document.getElementById(x);
+    }
 
-function get(x) {
-    return document.getElementById(x);
-}
-
-
+// function to hide start quiz div element
 function hideModal() {
     document.getElementById("main-modal").style.cssText = 'display: none;';
     c = 100;
@@ -33,7 +33,7 @@ function hideModal() {
     document.getElementById("results").style.cssText = "filter: none;  transform: translateY(0); opacity: 1;";
     generateQuestion();
 }
-
+// start show questions
 function generateQuestion() {
     results = get("results");
 
@@ -56,19 +56,20 @@ function generateQuestion() {
 
     get("quiz").innerHTML = "Question " + (pos + 1) + " of " + Questions.length;
     question = Questions[pos][0];
-    chA = Questions[pos][1];
-    chB = Questions[pos][2];
-    chC = Questions[pos][3];
-    chD = Questions[pos][4];
+    AnswerA = Questions[pos][1];
+    AnswerB = Questions[pos][2];
+    AnswerC = Questions[pos][3];
+    AnswerD = Questions[pos][4];
 
     results.innerHTML = "<h3>" + question + "</h3>";
-    results.innerHTML += "<p><input type='radio' name='choices' value='A' checked='checked'> " + chA + "</p><br>";
-    results.innerHTML += "<p><input type='radio' name='choices' value='B'> " + chB + "</p><br>";
-    results.innerHTML += "<p><input type='radio' name='choices' value='C'> " + chC + "</p><br>";
-    results.innerHTML += "<p><input type='radio' name='choices' value='D'> " + chD + "</p><br>";
+    results.innerHTML += "<p><input type='radio' name='choices' value='A' checked='checked'> " + AnswerA + "</p><br>";
+    results.innerHTML += "<p><input type='radio' name='choices' value='B'> " + AnswerB + "</p><br>";
+    results.innerHTML += "<p><input type='radio' name='choices' value='C'> " + AnswerC + "</p><br>";
+    results.innerHTML += "<p><input type='radio' name='choices' value='D'> " + AnswerD + "</p><br>";
     results.innerHTML += "<button onclick='checkAnswer(question)'>Submit Answer</button>";
 
 }
+// check current answer is whether correct ot not
 function checkAnswer(correctQuestion) {
     choices = document.getElementsByName("choices");
     for (var i = 0; i < choices.length; i++) {
@@ -101,6 +102,7 @@ function checkAnswer(correctQuestion) {
 
     generateQuestion();
 }
+// timer function
 function timer001() {
 
     time = get("time001");
@@ -110,6 +112,7 @@ function timer001() {
     if (c < 100){
         time.innerHTML = c;
     }
+    // stop the quiz
     if (c < 1){
         window.clearInterval(update);
         results.innerHTML = " <h4> You got " + correct + " of " + Questions.length + " questions correct </h4>";
@@ -126,11 +129,13 @@ function timer001() {
         return false;
     }
 }
+// update timer using a setInterval
 update = setInterval("timer001()", 1000);
 
-
+// stop the quiz when needed
 window.addEventListener("load", generateQuestion, false);
 
+// change background color of the timer div
 function changeBackgroundColor() {
     var div = document.getElementById("time001");
 
@@ -148,7 +153,6 @@ function changeBackgroundColor() {
     }
 
     setInterval(changeColor,1000);
-
 
 }
 

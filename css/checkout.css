@@ -1,0 +1,114 @@
+/** {
+    box-sizing: border-box;
+}*/
+
+/*body{
+    background-image: url("bground.jpg");
+    background-size: cover;
+    background-position: fixed;
+}*/
+.container {
+    border-radius: 5px;
+    margin: 50px 10px 30px 70px;
+    padding: 30px;
+    width: 80% ;
+    background: rgba(0, 0, 0, 0.3);
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+label{
+    padding: 12px 5px 12px 0;
+    display: inline-block;
+    float: left;
+    width: 20%;
+    margin-top: 8px;
+    color: white;
+}
+input {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: left;
+    margin-top: 8px;
+    background-color: #EEFEFC;
+}
+
+span{
+    margin: 15px 5px 1px 30px;
+    position: absolute;
+}
+
+.section{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: left;
+    margin-top: 20px;
+    height: 300px;
+    background-color: rgba(238, 242, 242, 0.93);
+}
+
+textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: left;
+    margin-top: 8px;
+    height: 150px;
+    background-color: #EEFEFC;
+}
+select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    float: left;
+    width: 12%;
+    margin-top: 12px;
+    background-color: #EEFEFC;
+}
+.first_num input {
+    margin-top: 12px;
+}
+
+input[type=submit] {
+    background-color: #429B37;
+    color: white;
+    border: none;
+    float: left;
+    width: 40%;
+    padding: 15px;
+    border-radius: 4px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30%;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #0E5506;
+}
+input[type=reset] {
+    background-color: #EA3D35;
+    color: white;
+    border: none;
+    float: left;
+    width: 40%;
+    padding: 15px;
+    border-radius: 4px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30%;
+    cursor: pointer;
+}
+input[type=reset]:hover {
+    background-color: #B8130A;
+}

@@ -15,7 +15,6 @@ html, body{
 .left-half img {
     margin-top: 10px;
     width: 480px;
-
 }
 
 .left-half p{
@@ -28,7 +27,7 @@ html, body{
 .image-div {
     background: #46494c;
     padding-bottom: 60px;
-    height: 440px;
+    height: 540px;
 
 }
 
@@ -37,8 +36,6 @@ html, body{
     text-align: left;
     font-size: 1em;
     padding: 30px 15px 0 15px;
-
-
 }
 .books{
     padding-top: 20px;
@@ -46,8 +43,6 @@ html, body{
     margin-left: 50px;
     margin-top:20px ;
     font-size: 20px;
-
-
 }
 
 .right-half ul{
@@ -57,8 +52,7 @@ html, body{
 }
 
 article h1 {
-    font-size: 1.75rem;
-
+    font-size: 1.5rem;
 }
 
 /* Pattern styles */
@@ -72,8 +66,6 @@ article h1 {
     max-width: 900px;
     margin: auto;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.70), 0 17px 50px 0 rgba(0,0,0,0.19);
-
-
 }
 
 .left-half {
@@ -85,7 +77,7 @@ article h1 {
 .right-half {
     flex: 1;
     background-color: #46494c;
-    height: 500px;
+    height: 600px;
     margin-top: 124px;
     width: 390px;
 }

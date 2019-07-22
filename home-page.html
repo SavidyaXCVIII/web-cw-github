@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/global-styles.css" type="text/css">
 <!--    page-styles-css-->
     <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/fontChangeBtn-styles.css" type="text/css" media="screen">
 <!--    web-font-kits-css-->
     <link rel="stylesheet" href="fonts/web-font-kit-2/stylesheet.css" type="text/css">
     <link rel="stylesheet" href="fonts/WebFontKit/stylesheet.css" type="text/css">
@@ -32,8 +33,8 @@
             <a href="#scroll-start"><img  class="arrow bounce" src="images/arrow.png" alt=""></a>
         </div>
         <div id="font-btn">
-            <button id="input-1" type="button" value="Increase Font Size 5px" onclick="increaseFontSizeBy5px()"></button>
-            <button id="input-2" type="button" value="decrease Font Size 5px" onclick="decreaseFontSizeBy5px()"></button>
+            <button id="input-1" type="button" value="Increase Font Size 5px" onclick="upClick()"></button>
+            <button id="input-2" type="button" value="decrease Font Size 5px" onclick="downClick()"></button>
         </div>
     </header>
     <p id="scroll-start"> </p>
@@ -213,7 +214,7 @@
             </ul>
         </li>
         <li>
-            <a title="checkout" href="#">Checkout</a>
+            <a title="checkout" href="sub-category/checkout.html">Checkout</a>
         </li>
         <li>
             <a title="quiz" href="quiz.html">Quiz</a>

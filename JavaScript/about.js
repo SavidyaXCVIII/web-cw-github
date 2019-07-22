@@ -1,5 +1,3 @@
-// body
-
 
 // st1-hover
 function changeColor01(color) {
