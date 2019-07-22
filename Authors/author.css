@@ -28,7 +28,7 @@ html, body{
 .image-div {
     background: #46494c;
     padding-bottom: 60px;
-    height: 440px;
+    height: 540px;
 
 }
 
@@ -57,7 +57,7 @@ html, body{
 }
 
 article h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 
 }
 
@@ -85,7 +85,7 @@ article h1 {
 .right-half {
     flex: 1;
     background-color: #46494c;
-    height: 500px;
+    height: 600px;
     margin-top: 124px;
     width: 390px;
 }
