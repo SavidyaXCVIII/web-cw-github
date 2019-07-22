@@ -70,12 +70,6 @@ body{
     margin: 5px;
     border-radius: 5px;
 }
-/*.product__price {*/
-/*    color: black;*/
-/*    padding: 10px;*/
-/*    margin-left: 35%;*/
-/*    //margin: 1rem auto;*/
-
 
 .product__name{
     display: none;
@@ -107,7 +101,6 @@ body{
 .btn:hover {
     background-color: #A2E3C4;
     color: #000000;
-    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
     transition: 0.5s;
 
 }
@@ -325,9 +318,16 @@ button {
     cursor: not-allowed;
 }
 
+
+.btn {
+    padding: .65rem 1rem;
+
+}
+
 .btn {
     transition: .3s all;
 }
+
 
 .btn--small {
     padding: .2rem .4rem;
@@ -338,11 +338,11 @@ button {
     background: var(--color-primary);
 }
 
-.btn--primary:hover:not(:disabled),
+/*.btn--primary:hover:not(:disabled),
 .btn--primary:focus {
     outline: none;
     box-shadow: 0 0 0 5px var(--color-primary-light);
-}
+}*/
 
 .btn--danger {
     color: var(--color-white);
@@ -387,25 +387,6 @@ button {
 
 .product__price:before {
     content: '$';
-}
-
-.product:hover .product__image {
-    animation: .5s shake-product-image;
-}
-
-@keyframes shake-product-image {
-    25% {
-        transform: rotate(-10deg);
-    }
-    50% {
-        transform: rotate(10deg);
-    }
-    75% {
-        transform: rotate(-10deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
 }
 
 /* ----------------- Cart ----------------- */
