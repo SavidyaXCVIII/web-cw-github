@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Quiz</title>
-<!--    global styles-->
+    <!--    global styles-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/global-styles.css" type="text/css">
-<!--    web-font-kit-css-->
+    <!--    web-font-kit-css-->
     <link rel="stylesheet" href="fonts/WebFontKit/stylesheet.css" type="text/css">
-<!--    local styles-->
+    <!--    local styles-->
     <link rel="stylesheet" href="css/quiz-styles.css" type="text/css">
     <link rel="stylesheet" href="css/fontChangeBtn-styles.css" type="text/css" media="screen">
-    <script src="JavaScript/quiz.js">  </script>
+    <script src="JavaScript/quiz.js"></script>
     <script src="JavaScript/font-change.js"></script>
 </head>
 <body>
@@ -53,7 +53,7 @@
                         <a title="checkout" href="sub-category/checkout.html">Checkout</a>
                     </li>
                     <li>
-                        <a class ="active" title="quiz" href="quiz.html">Quiz</a>
+                        <a class="active" title="quiz" href="quiz.html">Quiz</a>
                     </li>
                     <li>
                         <a title="authors" href="#">Authors</a>
@@ -78,62 +78,72 @@
                     </li>
                 </ul>
             </nav>
-        <div id="font-btn">
-            <button id="input-1" type="button" value="Increase Font Size 5px" onclick="upClick()"></button>
-            <button id="input-2" type="button" value="decrease Font Size 5px" onclick="downClick()"></button>
-        </div>
+            <div id="font-btn">
+                <button id="input-1" type="button" value="Increase Font Size 5px" onclick="upClick()"></button>
+                <button id="input-2" type="button" value="decrease Font Size 5px" onclick="downClick()"></button>
+            </div>
         </div>
 
     </header>
-<div id="page">
-    <div class="timer"><text id="time001"></text></div>
-    <div id="main-modal" class="modal display-modal">
-    <div class="modal-content">
-        <h2 class="heading">Books & Authors</h2>
-        <button onclick="hideModal(); changeBackgroundColor();" class="start">Start Quiz</button>
-        <h2 class="text">You have 100 seconds to complete.</h2>
-    </div>
-    </div>
-    <div class="quiz-container">
-    <h2 id="quiz" class="blur-01">
-    </h2>
-    <div id="results" class="blur-02"></div>
-    <div id="marks"></div>
-    </div>
-</div>
-<footer class="footer" >
-    <div class="footer-main">
-        <div class="footer-row footer-left">
-            <div class="footer-text">
-                <h1>&copy; The Book Hub</h1>
-                <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
-                <p>Our goal is to help those who supply </br> it and share it with those who crave it.</p>
+    <div id="page">
+        <div class="timer">
+            <text id="time001"></text>
+        </div>
+        <div id="main-modal" class="modal display-modal">
+            <div class="modal-content">
+                <h2 class="heading">Books & Authors</h2>
+                <button onclick="hideModal(); changeBackgroundColor();" class="start">Start Quiz</button>
+                <h2 class="text">You have 100 seconds to complete.</h2>
             </div>
         </div>
-        <div class="footer-row footer-middle">
-            <h2>About Us</h2>
-            <div class="footer-right-line"></div>
-            <p>We are the book hub team and we've been selling books online since 2012.
-                We believe in only delivering  books from the best authors in the world to our customers at a fair deal of a price.
-                We’re looking forward to opening up 2 local shops , and use our website to help our business to grow.</p>
-        </div>
-        <div class="footer-row footer-middle-right">
-            <div><button class="button"><a href="Sitemap.html">Site Map</a></button></div>
-            <div><button class="button"><a href="CV/Savidya_CV.html">Editor - CV</a></button></div>
-        </div>
-        <div class="footer-row footer-right">
-            <h2>Stay Connected</h2>
-            <div class="footer-right-line"></div>
-            <div class="links">
-                <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
-                <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
-                <div class="icons"><a href="#" class="fa fa-google"></a></div>
-                <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
-            </div>
-            <div><button class="button">Have Feedback ?</button></div>
+        <div class="quiz-container">
+            <h2 id="quiz" class="blur-01">
+            </h2>
+            <div id="results" class="blur-02"></div>
+            <div id="marks"></div>
         </div>
     </div>
-</footer>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-row footer-left">
+                <div class="footer-text">
+                    <h1>&copy; The Book Hub</h1>
+                    <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
+                    <p>Our goal is to help those who supply </br> it and share it with those who crave it.</p>
+                </div>
+            </div>
+            <div class="footer-row footer-middle">
+                <h2>About Us</h2>
+                <div class="footer-right-line"></div>
+                <p>We are the book hub team and we've been selling books online since 2012.
+                    We believe in only delivering books from the best authors in the world to our customers at a fair
+                    deal of a price.
+                    We’re looking forward to opening up 2 local shops , and use our website to help our business to
+                    grow.</p>
+            </div>
+            <div class="footer-row footer-middle-right">
+                <div>
+                    <button class="button"><a href="Sitemap.html">Site Map</a></button>
+                </div>
+                <div>
+                    <button class="button"><a href="CV/Savidya_CV.html">Editor - CV</a></button>
+                </div>
+            </div>
+            <div class="footer-row footer-right">
+                <h2>Stay Connected</h2>
+                <div class="footer-right-line"></div>
+                <div class="links">
+                    <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+                </div>
+                <div>
+                    <button class="button">Have Feedback ?</button>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
