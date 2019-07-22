@@ -1,6 +1,6 @@
 body{
     background: url("../images/library_books_reading.jpg") center no-repeat,linear-gradient(to right, #161933,#161614 , darkgrey);
-    background-size: auto;
+    background-size: cover;
     background-color: grey;
     background-blend-mode: soft-light,normal;
 }

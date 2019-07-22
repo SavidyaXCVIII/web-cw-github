@@ -50,6 +50,5 @@ function validateForm() {
     }else {
         document.getElementById("mnumber_location").innerHTML = "";
     }
-
     return status;
 }
