@@ -95,7 +95,7 @@
 <div id="page">
 <div class="container">
     <script src="../JavaScript/checkout-form.js">  </script>
-    <form name="myForm" onsubmit="return validateForm()" method="get">
+    <form name="myForm" onsubmit="return validateForm()" onclick="">
     <div class="row">
         <label> First Name </label>
         <input type="text" id="fname" name="firstname" placeholder="Your first name">
@@ -439,11 +439,24 @@
     </div>
 
     <div class="row">
-        <input type="submit" value="Confirm Checkout">
+        <input type="submit" value="Confirm Checkout" id="popup">
     </div>
     <div class="row">
         <input type="reset" value="Reset">
     </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+            </div>
+
+        </div>
+
+        <!--   cart java script-->
+        <script src="../JavaScript/form_popup.js">  </script>
 
     </form>
 </div>
