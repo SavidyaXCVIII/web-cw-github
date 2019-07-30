@@ -1,0 +1,54 @@
+             body {
+			 background-image: url("../icons/pallette.png");
+
+
+
+			}
+			.form{
+			/*	background-image: linear-gradient(to right, #5FC4E9, #1E4D5E);	*/
+				background-color:#1E4D5E;
+				width:40%;
+				height:120%;
+				padding:30px;
+				margin:40px;
+				margin-left:370px;
+				font-family:Calibri;
+				color:white;
+			}
+			h1{
+				color:white;
+				margin-top:-10px;
+				margin-bottom:-10px;
+				text-align:center;
+			}
+			input[type=text], select, textarea {
+				width: 100%;
+				padding: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+				margin-top: 6px;
+				margin-bottom: 16px;
+				resize: vertical;
+			}
+			.tag{
+				float:right;
+				width:20%;
+				padding:3px;
+				margin:0px;
+				border-radius: 4px;
+				background-color:#1E4D5E;
+			}
+			textarea{
+				height:100px;
+			}
+			.middlebutton{
+			  position: absolute;
+			  top: 187%;
+			  transform: translateY(-50%);
+			  width: 98%;
+			  text-align: center;
+			}
+			.radio{
+				padding:20px;
+			}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel = "stylesheet" type="text/css" href="css/MainCSS.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<div class="form">
+    <h1>Feedback Form</h1>
+    <form id="feedback" onSubmit="return validatefeedback()">
+
+        <label>Name :</label><input type="text" id="name" name ="name"/></br>
+        <label>Address :</label><input type="text" id="address" name ="address"/></br>
+        <label>Email Address:</label><input type="text" id="email" name ="email"/></br>
+        <label>Telephone no	:</label><input type="text" id="telNo" name ="telno"/></br>
+        <label>Comment :<textarea name="comments" id="comments" ></textarea></label></br>
+        <label>Rate our service</label>
+        <label><select id="rating" name="rating" >
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="bad">Bad</option>
+            <option value="very bad">Very Bad</option>
+        </select></label>
+
+        </br></br>
+        <button class="tag"><input class="1" type="submit" value="Submit"></button>
+        <button class="tag"><input class="1" type="Reset" value="Reset"></button>
+    </form>
+    <!-- Feedback Form ---->
+</div>
+
+<script>
+	$(document).ready(function(){
+	console.log("Hi beesesss");
+	});
+		function validatefeedback(){
+			var x = document.forms["feedback"]["name"].value;
+			if (x=="") {
+				alert("First Name should be filled");
+				return false;
+			}
+			var x = document.forms["feedback"]["address"].value;
+			if (x=="") {
+				alert("Address should be filled");
+				return false;
+			}
+			var x = document.forms["feedback"]["email"].value;
+			if (x=="") {
+				alert("Email field should be filled");
+				return false;
+			}
+			var x = document.forms["feedback"]["telno"].value;
+			if (x=="") {
+				alert("Telephone no field should be filled");
+				return false;
+			}
+			var x = document.forms["feedback"]["rating"].value;
+			if (x=="") {
+				alert("Ratings should be filled");
+				return false;
+			}
+			var x = document.forms["feedback"]["comments"].value;
+			if (x=="") {
+				alert("Comments should be filled");
+				return false;
+			}
+			else{
+				var name = document.forms["feedback"]["name"].value;
+				var rate = document.forms["feedback"]["rating"].value;
+				var com = document.forms["feedback"]["comments"].value;
+				alert("Dear "+name+", Thank you for your feedback. You rated the site as "+rate+" and your comment was "+com);
+			}
+		}
+	</script>
+</body>
+</html>
