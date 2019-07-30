@@ -1,8 +1,6 @@
              body {
-			 background-image: url("../icons/pallette.png");
-
-
-
+				 margin: 0;
+				background-image: url("../icons/pallette.png");	
 			}
 			.form{
 			/*	background-image: linear-gradient(to right, #5FC4E9, #1E4D5E);	*/
@@ -10,16 +8,18 @@
 				width:40%;
 				height:120%;
 				padding:30px;
-				margin:40px;
-				margin-left:370px;
+				margin:150px auto 40px auto;
+			
 				font-family:Calibri;
 				color:white;
 			}
+			
 			h1{
 				color:white;
 				margin-top:-10px;
 				margin-bottom:-10px;
 				text-align:center;
+				
 			}
 			input[type=text], select, textarea {
 				width: 100%;
