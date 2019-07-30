@@ -28,7 +28,7 @@
         <nav>
             <ul>
                 <li>
-                    <a class="active" title="home" href="../home-page.html">Home</a>
+                    <a title="home" href="../home-page.html">Home</a>
                 </li>
                 <li>
                     <a title="Books" href="../Categories.html">Categories</a>
@@ -54,7 +54,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a title="checkout" href="checkout.html">Checkout</a>
+                    <a class="active" title="checkout" href="checkout.html">Checkout</a>
                 </li>
                 <li>
                     <a title="quiz" href="../quiz.html">Quiz</a>
@@ -95,7 +95,7 @@
 <div id="page">
 <div class="container">
     <script src="../JavaScript/checkout-form.js">  </script>
-    <form name="myForm" onsubmit="return validateForm()" method="get">
+    <form name="myForm" onsubmit="return validateForm()" onclick="">
     <div class="row">
         <label> First Name </label>
         <input type="text" id="fname" name="firstname" placeholder="Your first name">
@@ -121,6 +121,309 @@
         <input type="number" id="mnumber" name="mobilenumber" placeholder="ex:77xxxxxxx">
         <span id="mnumber_location" style="color:red"></span>
     </div>
+        <div class="hide">
+            //action books//
+            <div class="product">
+                <img  src="../sub-category/cat-images/Action/action-book-1.jpg" class="product__image"></a>
+                <h2 class="product__name">The Spy Killer</h2>
+                <text class="product__price">7.50</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img  src="../sub-category/cat-images/Action/action-book-2.jpg" class="product__image"></a>
+                <h2 class="product__name">The Kill Order</h2>
+                <text class="product__price">9.00</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img  src="../sub-category/cat-images/Action/action-book-3.jpg" class="product__image"></a>
+                <h2 class="product__name">The Carrow Haunt</h2>
+                <text class="product__price">8.90</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img  src="../sub-category/cat-images/Action/action-book-4.jpg" class="product__image"></a>
+                <h2 class="product__name">Wonder Women</h2>
+                <text class="product__price">7.50</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img  src="../sub-category/cat-images/Action/action-book-5.jpg" class="product__image"></a>
+                <h2 class="product__name">The Fifth Wave</h2>
+                <text class="product__price">9.90</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img  src="../sub-category/cat-images/Action/action-book-6.jpg" class="product__image"></a>
+                <h2 class="product__name">The Death Cure</h2>
+                <text class="product__price">7.80</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+
+            //children books//
+            <div class="product">
+                <img src="cat-images/Children/children-book-1.jpg" class="product__image">
+                <h2 class="product__name">Shouting At The Rain</h2>
+                <text class="product__price">9.40</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Children/children-book-2.jpg" class="product__image">
+                <h2 class="product__name">Diary Of A Wimpy Kid</h2>
+                <text class="product__price">7.80</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Children/children-book-3.jpg" class="product__image">
+                <h2 class="product__name">Babymouse</h2>
+                <text class="product__price">6.90</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Children/children-book-4.jpg" class="product__image">
+                <h2 class="product__name">Matilda</h2>
+                <text class="product__price">8.20</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Children/children-book-5.jpg" class="product__image">
+                <h2 class="product__name">Peanuts</h2>
+                <text class="product__price">7.60</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Children/children-book-6.jpg" class="product__image">
+                <h2 class="product__name">Bella Broomstick</h2>
+                <text class="product__price">9.10</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+
+            //fiction books//
+            <div class="product">
+                <img src="cat-images/Fiction/fiction-book-1.jpg" class="product__image">
+                <h2 class="product__name">Beneath The Sugar Sky</h2>
+                <text class="product__price">7.50</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Fiction/fiction-book-2.jpg" class="product__image">
+                <h2 class="product__name">Only Human</h2>
+                <text class="product__price">8.90</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Fiction/fiction-book-3.jpg" class="product__image">
+                <h2 class="product__name">Artificial Condition</h2>
+                <text class="product__price">7.00</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Fiction/fiction-book-4.jpg" class="product__image">
+                <h2 class="product__name">Star Wars</h2>
+                <text class="product__price">7.50</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Fiction/fiction-book-5.jpg" class="product__image">
+                <h2 class="product__name">The Consuming Fire</h2>
+                <text class="product__price">7.50</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Fiction/fiction-book-6.jpg" class="product__image">
+                <h2 class="product__name">Magic Triumphs</h2>
+                <text class="product__price">8.70</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+
+            //horror books//
+            <div class="product">
+                <img src="cat-images/Horror/horror-book-1.jpg" class="product__image">
+                <h2 class="product__name">The Devil</h2>
+                <text class="product__price">8.90</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Horror/horror-book-2.jpg" class="product__image">
+                <h2 class="product__name">FOE</h2>
+                <text class="product__price">7.50</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Horror/horror-book-3.jpg" class="product__image">
+                <h2 class="product__name">Craven Manor</h2>
+                <text class="product__price">8.30</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Horror/horror-book-4.jpg" class="product__image">
+                <h2 class="product__name">The Siren And The Specter</h2>
+                <text class="product__price">6.90</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Horror/horror-book-5.jpg" class="product__image">
+                <h2 class="product__name">The Ghost Of Greylock</h2>
+                <text class="product__price">7.00</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Horror/horror-book-6.jpg" class="product__image">
+                <h2 class="product__name">IT</h2>
+                <text class="product__price">8.90</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+
+            //mystery books//
+            <div class="product">
+                <img src="cat-images/Mystery/mystery-book-1.jpg" class="product__image">
+                <h2 class="product__name">Force Of Nature</h2>
+                <text class="product__price">6.50</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Mystery/mystery-book-2.jpg" class="product__image">
+                <h2 class="product__name">The Outsider</h2>
+                <text class="product__price">7.00</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Mystery/mystery-book-3.jpg" class="product__image">
+                <h2 class="product__name">The Good Daughter</h2>
+                <text class="product__price">6.90</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Mystery/mystery-book-4.jpg" class="product__image">
+                <h2 class="product__name">The Death Of Mrs Westaway</h2>
+                <text class="product__price">7.20</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Mystery/mystery-book-5.jpg" class="product__image">
+                <h2 class="product__name">Jane Doe</h2>
+                <text class="product__price">6.50</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Mystery/mystery-book-6.jpg" class="product__image">
+                <h2 class="product__name">The Last Time I Lied</h2>
+                <text class="product__price">7.00</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+
+            //romance books//
+            <div class="product">
+                <img src="cat-images/Romance/romance-book-1.jpg" class="product__image">
+                <h2 class="product__name">The Coice</h2>
+                <text class="product__price">8.30</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Romance/romance-book-2.jpg" class="product__image">
+                <h2 class="product__name">From Lukov With Love</h2>
+                <text class="product__price">8.00</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Romance/romance-book-3.jpg" class="product__image">
+                <h2 class="product__name">The Longest Ride</h2>
+                <text class="product__price">7.80</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Romance/romance-book-4.jpg" class="product__image">
+                <h2 class="product__name">Roomies</h2>
+                <text class="product__price">7.20</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Romance/romance-book-5.jpg" class="product__image">
+                <h2 class="product__name">Safe Haven</h2>
+                <text class="product__price">6.80</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="product">
+                <img src="cat-images/Romance/romance-book-6.jpg" class="product__image">
+                <h2 class="product__name">A Walk To Remember</h2>
+                <text class="product__price">8.00</text>
+                <button type="button" class="btn btn-default" onclick="showHideDiv()" data-action="ADD_TO_CART">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+
     <div class="row">
         <label> Items you bought </label>
         <section class="section">
@@ -136,15 +439,30 @@
     </div>
 
     <div class="row">
-        <input type="submit" value="Confirm Checkout">
+        <input type="submit" value="Confirm Checkout" id="popup">
     </div>
     <div class="row">
         <input type="reset" value="Reset">
     </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+            </div>
+
+        </div>
+
+        <!--   cart java script-->
+        <script src="../JavaScript/form_popup.js">  </script>
 
     </form>
 </div>
 </div>
+
+
 
 <footer class="footer sub-cat" >
     <div class="footer-main">

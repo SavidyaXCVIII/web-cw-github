@@ -1,12 +1,4 @@
-/** {
-    box-sizing: border-box;
-}*/
 
-/*body{
-    background-image: url("bground.jpg");
-    background-size: cover;
-    background-position: fixed;
-}*/
 .container {
     border-radius: 5px;
     margin: 50px 10px 30px 70px;
@@ -25,7 +17,7 @@ label{
     float: left;
     width: 20%;
     margin-top: 8px;
-    color: white;
+    color: #000000;
 }
 input {
     width: 50%;
@@ -41,6 +33,9 @@ input {
 span{
     margin: 15px 5px 1px 30px;
     position: absolute;
+}
+.hide{
+    display: none;
 }
 
 .section{
@@ -82,7 +77,7 @@ select {
 
 input[type=submit] {
     background-color: #429B37;
-    color: white;
+    color: #000000;
     border: none;
     float: left;
     width: 40%;
@@ -98,7 +93,7 @@ input[type=submit]:hover {
 }
 input[type=reset] {
     background-color: #EA3D35;
-    color: white;
+    color: #000000;
     border: none;
     float: left;
     width: 40%;

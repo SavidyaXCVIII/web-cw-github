@@ -1,6 +1,6 @@
 body{
     background: url("../images/library_books_reading.jpg") center no-repeat,linear-gradient(to right, #161933,#161614 , darkgrey);
-    background-size: auto;
+    background-size: cover;
     background-color: grey;
     background-blend-mode: soft-light,normal;
 }
@@ -60,7 +60,7 @@ body{
 
 }
 .pre-title h1:nth-child(1) {
-    width: 2.8em;
+    width: 2.3em;
     -webkit-animation: type 1s steps(40, end),blink .1s step-end infinite ;
     animation: type 1s steps(40, end),blink .1s step-end infinite alternate;
     -webkit-animation-fill-mode: forwards;
@@ -68,10 +68,10 @@ body{
 }
 
 .pre-title h1:nth-child(2) {
-    width: 2.5em;
+    width: 2.6em;
     opacity: 0;
-    -webkit-animation: type2 0.5s steps(40, end),blink .4s step-end infinite alternate;
-    animation: type2 0.5s steps(40, end),blink .4s step-end infinite alternate;
+    -webkit-animation: type2 1s steps(40, end),blink .1s step-end infinite alternate;
+    animation: type2 1s steps(40, end),blink .1s step-end infinite alternate;
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
     -webkit-animation-fill-mode: forwards;
@@ -79,12 +79,12 @@ body{
 }
 
 .pre-title h1:nth-child(3) {
-    width: 4.3em;
+    width: 2.3em;
     opacity: 0;
     -webkit-animation: type3 1.5s steps(20, end),blink .1s step-end infinite alternate;
     animation: type3 1s steps(20, end),blink .1s step-end infinite alternate;
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
